@@ -1,0 +1,458 @@
+EESchema Schematic File Version 2
+LIBS:SW-IQD
+LIBS:SW-NXP
+LIBS:SW-Bournes-Pro-Audio
+LIBS:SW-dallas-semi-maxim
+LIBS:SW-analog-op_amps
+LIBS:SW-Central-Semiconductor
+LIBS:SW-con
+LIBS:SW-texas-op_amps
+LIBS:SW-texas-power
+LIBS:SW-THAT-corp
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:portable-line-mixer-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DS1882 U?
+U 1 1 5809B3AA
+P 3300 2200
+AR Path="/5809B3A1/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/5809D2C4/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/5809D6F7/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/5809D9F1/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/580A1243/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/580A124D/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/580A1257/5809B3AA" Ref="U?"  Part="1" 
+AR Path="/580A1261/5809B3AA" Ref="U?"  Part="1" 
+F 0 "U?" V 3300 2400 60  0000 C CNN
+F 1 "DS1882" V 3300 2000 60  0000 C CNN
+F 2 "" H 3200 2300 60  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 3450 3300 60  0001 C CNN
+F 4 "0.00@0" H 3300 950 60  0001 C CNN "Pricing"
+F 5 "Dallas Semiconductor / Maxim Integrated" H 3300 1100 60  0001 C CNN "Manufacturer"
+F 6 "Dual Log Audio Digital Potentiometer" H 3250 3400 60  0001 C CNN "Description"
+F 7 "Manufacturer" H 3800 950 60  0001 C CNN "Source"
+F 8 "TSSOP, SO" H 3300 3500 60  0001 C CNN "Package ID"
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1850 3750 1850
+Wire Wire Line
+	4400 1750 4400 1950
+Wire Wire Line
+	4400 1950 3750 1950
+Text HLabel 4150 2150 2    60   BiDi ~ 0
+SDA
+Text HLabel 4150 2050 2    60   BiDi ~ 0
+SCL
+Wire Wire Line
+	4150 2050 3750 2050
+Wire Wire Line
+	4150 2150 3750 2150
+Text HLabel 4150 2250 2    60   BiDi ~ 0
+~CE
+Wire Wire Line
+	4150 2250 3750 2250
+$Comp
+L GNDREF #PWR015
+U 1 1 5809B4E0
+P 3750 2650
+AR Path="/5809B3A1/5809B4E0" Ref="#PWR015"  Part="1" 
+AR Path="/5809D2C4/5809B4E0" Ref="#PWR023"  Part="1" 
+AR Path="/5809D6F7/5809B4E0" Ref="#PWR031"  Part="1" 
+AR Path="/5809D9F1/5809B4E0" Ref="#PWR039"  Part="1" 
+AR Path="/580A1243/5809B4E0" Ref="#PWR047"  Part="1" 
+AR Path="/580A124D/5809B4E0" Ref="#PWR055"  Part="1" 
+AR Path="/580A1257/5809B4E0" Ref="#PWR063"  Part="1" 
+AR Path="/580A1261/5809B4E0" Ref="#PWR071"  Part="1" 
+F 0 "#PWR039" H 3750 2400 50  0001 C CNN
+F 1 "GNDREF" H 3750 2500 50  0000 C CNN
+F 2 "" H 3750 2650 50  0000 C CNN
+F 3 "" H 3750 2650 50  0000 C CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2550 3750 2650
+$Comp
+L GNDREF #PWR016
+U 1 1 5809B509
+P 2400 2450
+AR Path="/5809B3A1/5809B509" Ref="#PWR016"  Part="1" 
+AR Path="/5809D2C4/5809B509" Ref="#PWR024"  Part="1" 
+AR Path="/5809D6F7/5809B509" Ref="#PWR032"  Part="1" 
+AR Path="/5809D9F1/5809B509" Ref="#PWR040"  Part="1" 
+AR Path="/580A1243/5809B509" Ref="#PWR048"  Part="1" 
+AR Path="/580A124D/5809B509" Ref="#PWR056"  Part="1" 
+AR Path="/580A1257/5809B509" Ref="#PWR064"  Part="1" 
+AR Path="/580A1261/5809B509" Ref="#PWR072"  Part="1" 
+F 0 "#PWR040" H 2400 2200 50  0001 C CNN
+F 1 "GNDREF" H 2400 2300 50  0000 C CNN
+F 2 "" H 2400 2450 50  0000 C CNN
+F 3 "" H 2400 2450 50  0000 C CNN
+	1    2400 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2450 2850 2450
+$Comp
+L GNDREF #PWR017
+U 1 1 5809B529
+P 2850 1700
+AR Path="/5809B3A1/5809B529" Ref="#PWR017"  Part="1" 
+AR Path="/5809D2C4/5809B529" Ref="#PWR025"  Part="1" 
+AR Path="/5809D6F7/5809B529" Ref="#PWR033"  Part="1" 
+AR Path="/5809D9F1/5809B529" Ref="#PWR041"  Part="1" 
+AR Path="/580A1243/5809B529" Ref="#PWR049"  Part="1" 
+AR Path="/580A124D/5809B529" Ref="#PWR057"  Part="1" 
+AR Path="/580A1257/5809B529" Ref="#PWR065"  Part="1" 
+AR Path="/580A1261/5809B529" Ref="#PWR073"  Part="1" 
+F 0 "#PWR041" H 2850 1450 50  0001 C CNN
+F 1 "GNDREF" H 2850 1550 50  0000 C CNN
+F 2 "" H 2850 1700 50  0000 C CNN
+F 3 "" H 2850 1700 50  0000 C CNN
+	1    2850 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 1700 2850 1850
+$Comp
+L JACK-TRS J?
+U 1 1 5809B547
+P 1800 1950
+AR Path="/5809B3A1/5809B547" Ref="J?"  Part="1" 
+AR Path="/5809D2C4/5809B547" Ref="J?"  Part="1" 
+AR Path="/5809D6F7/5809B547" Ref="J?"  Part="1" 
+AR Path="/5809D9F1/5809B547" Ref="J?"  Part="1" 
+AR Path="/580A1243/5809B547" Ref="J?"  Part="1" 
+AR Path="/580A124D/5809B547" Ref="J?"  Part="1" 
+AR Path="/580A1257/5809B547" Ref="J?"  Part="1" 
+AR Path="/580A1261/5809B547" Ref="J?"  Part="1" 
+F 0 "J?" H 1800 1850 60  0000 C CNN
+F 1 "JACK-TRS" H 1800 1950 60  0000 C CNN
+F 2 "" H 1800 1950 60  0000 C CNN
+F 3 "" H 1800 1950 60  0000 C CNN
+	1    1800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VA #PWR018
+U 1 1 5809B589
+P 4400 1750
+AR Path="/5809B3A1/5809B589" Ref="#PWR018"  Part="1" 
+AR Path="/5809D2C4/5809B589" Ref="#PWR026"  Part="1" 
+AR Path="/5809D6F7/5809B589" Ref="#PWR034"  Part="1" 
+AR Path="/5809D9F1/5809B589" Ref="#PWR042"  Part="1" 
+AR Path="/580A1243/5809B589" Ref="#PWR050"  Part="1" 
+AR Path="/580A124D/5809B589" Ref="#PWR058"  Part="1" 
+AR Path="/580A1257/5809B589" Ref="#PWR066"  Part="1" 
+AR Path="/580A1261/5809B589" Ref="#PWR074"  Part="1" 
+F 0 "#PWR042" H 4400 1600 50  0001 C CNN
+F 1 "+5VA" H 4400 1890 50  0000 C CNN
+F 2 "" H 4400 1750 50  0000 C CNN
+F 3 "" H 4400 1750 50  0000 C CNN
+	1    4400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VD #PWR019
+U 1 1 5809B5A3
+P 4050 1850
+AR Path="/5809B3A1/5809B5A3" Ref="#PWR019"  Part="1" 
+AR Path="/5809D2C4/5809B5A3" Ref="#PWR027"  Part="1" 
+AR Path="/5809D6F7/5809B5A3" Ref="#PWR035"  Part="1" 
+AR Path="/5809D9F1/5809B5A3" Ref="#PWR043"  Part="1" 
+AR Path="/580A1243/5809B5A3" Ref="#PWR051"  Part="1" 
+AR Path="/580A124D/5809B5A3" Ref="#PWR059"  Part="1" 
+AR Path="/580A1257/5809B5A3" Ref="#PWR067"  Part="1" 
+AR Path="/580A1261/5809B5A3" Ref="#PWR075"  Part="1" 
+F 0 "#PWR043" H 4050 1700 50  0001 C CNN
+F 1 "+5VD" H 4050 1990 50  0000 C CNN
+F 2 "" H 4050 1850 50  0000 C CNN
+F 3 "" H 4050 1850 50  0000 C CNN
+	1    4050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L -5V #PWR?
+U 1 1 5809B5C5
+P 2400 2150
+AR Path="/5809B3A1/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/5809D2C4/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/5809D6F7/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/5809D9F1/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/580A1243/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/580A124D/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/580A1257/5809B5C5" Ref="#PWR?"  Part="1" 
+AR Path="/580A1261/5809B5C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2400 2250 50  0001 C CNN
+F 1 "-5V" H 2400 2300 50  0000 C CNN
+F 2 "" H 2400 2150 50  0000 C CNN
+F 3 "" H 2400 2150 50  0000 C CNN
+	1    2400 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 2150 2400 2150
+Wire Wire Line
+	2050 2550 2850 2550
+Wire Wire Line
+	2050 1900 2050 2550
+Text Label 2050 2550 2    60   ~ 0
+LEFT
+Text Label 2150 1700 0    60   ~ 0
+RIGHT
+Wire Wire Line
+	2150 1700 2050 1700
+Text Label 3950 2450 3    60   ~ 0
+RIGHT
+Wire Wire Line
+	3950 2450 3750 2450
+$Comp
+L GNDREF #PWR020
+U 1 1 5809B686
+P 2050 1650
+AR Path="/5809B3A1/5809B686" Ref="#PWR020"  Part="1" 
+AR Path="/5809D2C4/5809B686" Ref="#PWR028"  Part="1" 
+AR Path="/5809D6F7/5809B686" Ref="#PWR036"  Part="1" 
+AR Path="/5809D9F1/5809B686" Ref="#PWR044"  Part="1" 
+AR Path="/580A1243/5809B686" Ref="#PWR052"  Part="1" 
+AR Path="/580A124D/5809B686" Ref="#PWR060"  Part="1" 
+AR Path="/580A1257/5809B686" Ref="#PWR068"  Part="1" 
+AR Path="/580A1261/5809B686" Ref="#PWR076"  Part="1" 
+F 0 "#PWR044" H 2050 1400 50  0001 C CNN
+F 1 "GNDREF" H 2050 1500 50  0000 C CNN
+F 2 "" H 2050 1650 50  0000 C CNN
+F 3 "" H 2050 1650 50  0000 C CNN
+	1    2050 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 5809B6F5
+P 2500 2300
+AR Path="/5809B3A1/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/5809D2C4/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/5809D6F7/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/5809D9F1/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/580A1243/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/580A124D/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/580A1257/5809B6F5" Ref="C?"  Part="1" 
+AR Path="/580A1261/5809B6F5" Ref="C?"  Part="1" 
+F 0 "C?" H 2525 2400 50  0000 L CNN
+F 1 "0u01F" H 2525 2200 50  0000 L CNN
+F 2 "" H 2538 2150 50  0000 C CNN
+F 3 "" H 2500 2300 50  0000 C CNN
+	1    2500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5809B742
+P 3800 1700
+AR Path="/5809B3A1/5809B742" Ref="C?"  Part="1" 
+AR Path="/5809D2C4/5809B742" Ref="C?"  Part="1" 
+AR Path="/5809D6F7/5809B742" Ref="C?"  Part="1" 
+AR Path="/5809D9F1/5809B742" Ref="C?"  Part="1" 
+AR Path="/580A1243/5809B742" Ref="C?"  Part="1" 
+AR Path="/580A124D/5809B742" Ref="C?"  Part="1" 
+AR Path="/580A1257/5809B742" Ref="C?"  Part="1" 
+AR Path="/580A1261/5809B742" Ref="C?"  Part="1" 
+F 0 "C?" H 3825 1800 50  0000 L CNN
+F 1 "0u01F" H 3825 1600 50  0000 L CNN
+F 2 "" H 3838 1550 50  0000 C CNN
+F 3 "" H 3800 1700 50  0000 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR021
+U 1 1 5809B773
+P 3800 1550
+AR Path="/5809B3A1/5809B773" Ref="#PWR021"  Part="1" 
+AR Path="/5809D2C4/5809B773" Ref="#PWR029"  Part="1" 
+AR Path="/5809D6F7/5809B773" Ref="#PWR037"  Part="1" 
+AR Path="/5809D9F1/5809B773" Ref="#PWR045"  Part="1" 
+AR Path="/580A1243/5809B773" Ref="#PWR053"  Part="1" 
+AR Path="/580A124D/5809B773" Ref="#PWR061"  Part="1" 
+AR Path="/580A1257/5809B773" Ref="#PWR069"  Part="1" 
+AR Path="/580A1261/5809B773" Ref="#PWR077"  Part="1" 
+F 0 "#PWR045" H 3800 1300 50  0001 C CNN
+F 1 "GNDREF" H 3800 1400 50  0000 C CNN
+F 2 "" H 3800 1550 50  0000 C CNN
+F 3 "" H 3800 1550 50  0000 C CNN
+	1    3800 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 5809B78A
+P 4550 1800
+AR Path="/5809B3A1/5809B78A" Ref="C?"  Part="1" 
+AR Path="/5809D2C4/5809B78A" Ref="C?"  Part="1" 
+AR Path="/5809D6F7/5809B78A" Ref="C?"  Part="1" 
+AR Path="/5809D9F1/5809B78A" Ref="C?"  Part="1" 
+AR Path="/580A1243/5809B78A" Ref="C?"  Part="1" 
+AR Path="/580A124D/5809B78A" Ref="C?"  Part="1" 
+AR Path="/580A1257/5809B78A" Ref="C?"  Part="1" 
+AR Path="/580A1261/5809B78A" Ref="C?"  Part="1" 
+F 0 "C?" H 4575 1900 50  0000 L CNN
+F 1 "0u01F" H 4575 1700 50  0000 L CNN
+F 2 "" H 4588 1650 50  0000 C CNN
+F 3 "" H 4550 1800 50  0000 C CNN
+	1    4550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR022
+U 1 1 5809B7BC
+P 4700 1800
+AR Path="/5809B3A1/5809B7BC" Ref="#PWR022"  Part="1" 
+AR Path="/5809D2C4/5809B7BC" Ref="#PWR030"  Part="1" 
+AR Path="/5809D6F7/5809B7BC" Ref="#PWR038"  Part="1" 
+AR Path="/5809D9F1/5809B7BC" Ref="#PWR046"  Part="1" 
+AR Path="/580A1243/5809B7BC" Ref="#PWR054"  Part="1" 
+AR Path="/580A124D/5809B7BC" Ref="#PWR062"  Part="1" 
+AR Path="/580A1257/5809B7BC" Ref="#PWR070"  Part="1" 
+AR Path="/580A1261/5809B7BC" Ref="#PWR078"  Part="1" 
+F 0 "#PWR046" H 4700 1550 50  0001 C CNN
+F 1 "GNDREF" H 4700 1650 50  0000 C CNN
+F 2 "" H 4700 1800 50  0000 C CNN
+F 3 "" H 4700 1800 50  0000 C CNN
+	1    4700 1800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4400 1800
+Text HLabel 1850 2750 0    60   BiDi ~ 0
+LOUT
+Text HLabel 1850 2950 0    60   BiDi ~ 0
+ROUT
+Text HLabel 2850 2250 0    60   BiDi ~ 0
+A0
+Text HLabel 2850 2050 0    60   BiDi ~ 0
+A1
+Text HLabel 2850 1950 0    60   BiDi ~ 0
+A2
+$Comp
+L R R?
+U 1 1 580A32C0
+P 2150 2750
+AR Path="/5809B3A1/580A32C0" Ref="R?"  Part="1" 
+AR Path="/5809D2C4/580A32C0" Ref="R?"  Part="1" 
+AR Path="/5809D6F7/580A32C0" Ref="R?"  Part="1" 
+AR Path="/5809D9F1/580A32C0" Ref="R?"  Part="1" 
+AR Path="/580A1243/580A32C0" Ref="R?"  Part="1" 
+AR Path="/580A124D/580A32C0" Ref="R?"  Part="1" 
+AR Path="/580A1257/580A32C0" Ref="R?"  Part="1" 
+AR Path="/580A1261/580A32C0" Ref="R?"  Part="1" 
+F 0 "R?" V 2230 2750 50  0000 C CNN
+F 1 "10k" V 2150 2750 50  0000 C CNN
+F 2 "" V 2080 2750 50  0000 C CNN
+F 3 "" H 2150 2750 50  0000 C CNN
+	1    2150 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2750 1850 2750
+Wire Wire Line
+	2850 2350 2800 2350
+$Comp
+L R R?
+U 1 1 580A33C0
+P 2150 2950
+AR Path="/5809D2C4/580A33C0" Ref="R?"  Part="1" 
+AR Path="/5809D6F7/580A33C0" Ref="R?"  Part="1" 
+AR Path="/5809D9F1/580A33C0" Ref="R?"  Part="1" 
+AR Path="/5809B3A1/580A33C0" Ref="R?"  Part="1" 
+AR Path="/580A1243/580A33C0" Ref="R?"  Part="1" 
+AR Path="/580A124D/580A33C0" Ref="R?"  Part="1" 
+AR Path="/580A1257/580A33C0" Ref="R?"  Part="1" 
+AR Path="/580A1261/580A33C0" Ref="R?"  Part="1" 
+F 0 "R?" V 2230 2950 50  0000 C CNN
+F 1 "10k" V 2150 2950 50  0000 C CNN
+F 2 "" V 2080 2950 50  0000 C CNN
+F 3 "" H 2150 2950 50  0000 C CNN
+	1    2150 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 580B5F27
+P 2550 2750
+F 0 "C?" H 2575 2850 50  0000 L CNN
+F 1 "1uF" H 2575 2650 50  0000 L CNN
+F 2 "" H 2588 2600 50  0000 C CNN
+F 3 "" H 2550 2750 50  0000 C CNN
+	1    2550 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2350 2800 2750
+Wire Wire Line
+	2800 2750 2700 2750
+Wire Wire Line
+	2400 2750 2300 2750
+Wire Wire Line
+	2000 2950 1850 2950
+$Comp
+L C C?
+U 1 1 580B61C4
+P 2550 2950
+F 0 "C?" H 2575 3050 50  0000 L CNN
+F 1 "1uF" H 2575 2850 50  0000 L CNN
+F 2 "" H 2588 2800 50  0000 C CNN
+F 3 "" H 2550 2950 50  0000 C CNN
+	1    2550 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2950 2300 2950
+Wire Wire Line
+	2700 2950 4050 2950
+Wire Wire Line
+	4050 2950 4050 2350
+Wire Wire Line
+	4050 2350 3750 2350
+$EndSCHEMATC

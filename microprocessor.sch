@@ -1,0 +1,656 @@
+EESchema Schematic File Version 2
+LIBS:SW-IQD
+LIBS:SW-NXP
+LIBS:SW-Bournes-Pro-Audio
+LIBS:SW-dallas-semi-maxim
+LIBS:SW-analog-op_amps
+LIBS:SW-Central-Semiconductor
+LIBS:SW-con
+LIBS:SW-texas-op_amps
+LIBS:SW-texas-power
+LIBS:SW-THAT-corp
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:portable-line-mixer-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA32U4-A U?
+U 1 1 580C7A3E
+P 5800 3900
+F 0 "U?" H 4850 5600 50  0000 C CNN
+F 1 "ATMEGA32U4-A" H 6500 2400 50  0000 C CNN
+F 2 "TQFP44" H 5800 3900 50  0000 C CIN
+F 3 "" H 6900 5000 50  0000 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PEC11-4215F-S24 S?
+U 1 1 580C7C66
+P 8150 4500
+F 0 "S?" H 8150 4650 60  0000 C CNN
+F 1 "PEC11-4215F-S24" H 8150 4300 60  0000 C CNN
+F 2 "" H 8050 4550 60  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/pec11R.pdf" H 8000 4850 60  0001 C CNN
+F 4 "0.00@0" H 8450 5150 60  0001 C CNN "Pricing"
+F 5 "Bournes Pro Audio" H 8150 4950 60  0001 C CNN "Manufacturer"
+F 6 "PEC11R Series - 12 mm Incremental Encoder" H 8150 5050 60  0001 C CNN "Description"
+	1    8150 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L USB_OTG P?
+U 1 1 580C7DAA
+P 2750 3700
+F 0 "P?" H 3075 3575 50  0000 C CNN
+F 1 "USB_OTG" H 2750 3900 50  0000 C CNN
+F 2 "" V 2700 3600 50  0000 C CNN
+F 3 "" V 2700 3600 50  0000 C CNN
+	1    2750 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MF-MSMF050-2 F?
+U 1 1 580C7F4B
+P 3400 4000
+F 0 "F?" H 3400 4000 60  0000 C CNN
+F 1 "MF-MSMF050-2" H 3400 3900 60  0000 C CNN
+F 2 "" H 3300 3900 60  0001 C CNN
+F 3 "https://www.bourns.com/PDFs/MFMSMF.pdf" H 3350 3700 60  0001 C CNN
+F 4 "0.00@0" H 3600 3800 60  0001 C CNN "Pricing"
+F 5 "1812 mils" H 3400 4400 60  0001 C CNN "Package ID"
+F 6 "Bournes" H 3400 4200 60  0001 C CNN "Manufacturer"
+F 7 "PTC Resettable Fuses" H 3400 4300 60  0001 C CNN "Description"
+	1    3400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMV48XP T?
+U 1 1 580C85DC
+P 5250 1500
+F 0 "T?" H 5500 1575 50  0000 L CNN
+F 1 "PMV48XP" H 5500 1500 50  0000 L CNN
+F 2 "SOT23" H 5500 1400 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/PMV48XP.pdf" H 4900 2150 50  0001 L CNN
+F 4 "0.00@0" H 5250 1100 60  0001 C CNN "Pricing"
+F 5 "20 V, 3.5 A" H 5400 1750 60  0001 C CNN "Characteristics"
+F 6 "20 V, 3.5 A P-channel Trench MOSFET" H 5800 1875 60  0001 C CNN "Description"
+F 7 "NXP" H 5150 2000 60  0001 C CNN "Manufacturer"
+F 8 "SOT23" H 5450 2000 60  0001 C CNN "Package ID"
+	1    5250 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 580C86B8
+P 4450 2200
+F 0 "D?" H 4450 2100 50  0000 C CNN
+F 1 "CD1206-S01575" H 4450 2300 50  0000 C CNN
+F 2 "" H 4450 2200 50  0000 C CNN
+F 3 "" H 4450 2200 50  0000 C CNN
+	1    4450 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L LFXTAL056036 Y?
+U 1 1 580C8D2A
+P 3800 3000
+F 0 "Y?" H 3800 2850 60  0000 C CNN
+F 1 "LFXTAL056036" H 3850 2600 60  0000 C CNN
+F 2 "" H 3800 3000 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/741/LFXTAL056036Reel-999733.pdf" H 3850 2550 60  0001 C CNN
+F 4 "0.00@0" H 3600 3400 60  0001 C CNN "Pricing"
+F 5 "16MHz" H 3800 2650 60  0001 C CNN "Characteristics"
+F 6 "IQD" H 3800 3200 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4000 3400 60  0001 C CNN "Source"
+F 8 "Quartz Crystal" H 3800 3300 60  0001 C CNN "Description"
+	1    3800 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 580C8DF4
+P 3950 3800
+F 0 "R?" V 4030 3800 50  0000 C CNN
+F 1 "22R" V 3950 3800 50  0000 C CNN
+F 2 "" V 3880 3800 50  0000 C CNN
+F 3 "" H 3950 3800 50  0000 C CNN
+	1    3950 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 580C8F81
+P 3650 3700
+F 0 "R?" V 3730 3700 50  0000 C CNN
+F 1 "22R" V 3650 3700 50  0000 C CNN
+F 2 "" V 3580 3700 50  0000 C CNN
+F 3 "" H 3650 3700 50  0000 C CNN
+	1    3650 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L CG0603MLC-05E Z?
+U 1 1 580AA52D
+P 3200 3500
+F 0 "Z?" H 3200 3500 60  0000 C CNN
+F 1 "CG0603MLC-05E" H 3200 3600 60  0000 C CNN
+F 2 "" H 3100 3400 60  0001 C CNN
+F 3 "http://bourns.com/pdfs/MLC.pdf" H 3150 3200 60  0001 C CNN
+F 4 "0.00@0" H 3400 3300 60  0001 C CNN "Pricing"
+F 5 "0603 mils" H 3200 3900 60  0001 C CNN "Package ID"
+F 6 "Bournes" H 3200 3700 60  0001 C CNN "Manufacturer"
+F 7 "ESD Suppressor" H 3200 3800 60  0001 C CNN "Description"
+	1    3200 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L CG0603MLC-05E Z?
+U 1 1 580AA5A0
+P 3400 3300
+F 0 "Z?" H 3400 3300 60  0000 C CNN
+F 1 "CG0603MLC-05E" H 3400 3400 60  0000 C CNN
+F 2 "" H 3300 3200 60  0001 C CNN
+F 3 "http://bourns.com/pdfs/MLC.pdf" H 3350 3000 60  0001 C CNN
+F 4 "0.00@0" H 3600 3100 60  0001 C CNN "Pricing"
+F 5 "0603 mils" H 3400 3700 60  0001 C CNN "Package ID"
+F 6 "Bournes" H 3400 3500 60  0001 C CNN "Manufacturer"
+F 7 "ESD Suppressor" H 3400 3600 60  0001 C CNN "Description"
+	1    3400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 580AC370
+P 4150 2550
+F 0 "C?" H 4160 2620 50  0000 L CNN
+F 1 "22pF" H 4160 2470 50  0000 L CNN
+F 2 "" H 4150 2550 50  0000 C CNN
+F 3 "" H 4150 2550 50  0000 C CNN
+	1    4150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 580AC4DD
+P 4150 3150
+F 0 "C?" H 4160 3220 50  0000 L CNN
+F 1 "22pF" H 4160 3070 50  0000 L CNN
+F 2 "" H 4150 3150 50  0000 C CNN
+F 3 "" H 4150 3150 50  0000 C CNN
+	1    4150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 580AC5C4
+P 3150 2750
+F 0 "#PWR?" H 3150 2500 50  0001 C CNN
+F 1 "GNDREF" H 3150 2600 50  0000 C CNN
+F 2 "" H 3150 2750 50  0000 C CNN
+F 3 "" H 3150 2750 50  0000 C CNN
+	1    3150 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 5600 5950 5500
+Wire Wire Line
+	4550 5600 4900 5600
+Wire Wire Line
+	4900 5600 5400 5600
+Wire Wire Line
+	5400 5600 5650 5600
+Wire Wire Line
+	5650 5600 5750 5600
+Wire Wire Line
+	5750 5600 5850 5600
+Wire Wire Line
+	5850 5600 5950 5600
+Wire Wire Line
+	5850 5600 5850 5500
+Wire Wire Line
+	5750 5600 5750 5500
+Connection ~ 5850 5600
+Wire Wire Line
+	5650 5600 5650 5500
+Connection ~ 5750 5600
+Wire Wire Line
+	5400 5600 5400 5500
+Connection ~ 5650 5600
+Wire Wire Line
+	4650 3700 3800 3700
+Wire Wire Line
+	4100 3800 4650 3800
+Wire Wire Line
+	3050 3800 3400 3800
+Wire Wire Line
+	3400 3800 3800 3800
+Wire Wire Line
+	3050 3700 3200 3700
+Wire Wire Line
+	3200 3700 3500 3700
+Wire Wire Line
+	3400 3500 3400 3800
+Connection ~ 3400 3800
+Connection ~ 3200 3700
+Wire Wire Line
+	4150 2750 4650 2750
+Wire Wire Line
+	4650 2950 4150 2950
+Wire Wire Line
+	4150 2650 4150 2750
+Wire Wire Line
+	4150 2950 4150 3050
+Wire Wire Line
+	3450 2450 3450 2750
+Wire Wire Line
+	3450 2750 3450 2950
+Wire Wire Line
+	3450 2950 3450 3100
+Wire Wire Line
+	4150 3250 3600 3250
+Wire Wire Line
+	3600 3100 3600 3250
+Wire Wire Line
+	3200 3100 3400 3100
+Wire Wire Line
+	3400 3100 3450 3100
+Wire Wire Line
+	3450 3100 3600 3100
+Connection ~ 3450 3100
+Connection ~ 3450 2950
+Wire Wire Line
+	3450 2450 4050 2450
+Wire Wire Line
+	4050 2450 4150 2450
+Connection ~ 3450 2750
+Wire Wire Line
+	3150 2750 3200 2750
+Wire Wire Line
+	3200 2750 3450 2750
+Wire Wire Line
+	3200 3100 3200 3300
+Connection ~ 3400 3100
+Wire Wire Line
+	3050 3500 3050 3000
+Wire Wire Line
+	3050 3000 3200 3000
+Wire Wire Line
+	3200 3000 3200 2750
+Connection ~ 3200 2750
+NoConn ~ 3050 3600
+$Comp
+L C_Small C?
+U 1 1 580AC9CD
+P 4550 4900
+F 0 "C?" H 4560 4970 50  0000 L CNN
+F 1 "100nF" H 4560 4820 50  0000 L CNN
+F 2 "" H 4550 4900 50  0000 C CNN
+F 3 "" H 4550 4900 50  0000 C CNN
+	1    4550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4750 4550 4750
+Wire Wire Line
+	4550 4750 4550 4800
+Wire Wire Line
+	4550 5000 4550 5050
+Wire Wire Line
+	4550 5050 4550 5600
+Connection ~ 5400 5600
+$Comp
+L C_Small C?
+U 1 1 580ACAE7
+P 4550 4150
+F 0 "C?" H 4560 4220 50  0000 L CNN
+F 1 "1uF" H 4560 4070 50  0000 L CNN
+F 2 "" H 4550 4150 50  0000 C CNN
+F 3 "" H 4550 4150 50  0000 C CNN
+	1    4550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3950 4550 3950
+Wire Wire Line
+	4550 3950 4550 4050
+Wire Wire Line
+	4550 4250 4550 4400
+Wire Wire Line
+	4550 4400 4400 4400
+Wire Wire Line
+	4400 4400 4400 4450
+Wire Wire Line
+	4400 4450 4400 5050
+Wire Wire Line
+	4400 5050 4550 5050
+Connection ~ 4550 5050
+Wire Wire Line
+	4650 3550 4400 3550
+Wire Wire Line
+	4400 4000 4400 3550
+Wire Wire Line
+	3600 4000 3700 4000
+Wire Wire Line
+	3700 4000 3850 4000
+Wire Wire Line
+	3850 4000 4400 4000
+Wire Wire Line
+	3050 3900 3050 4000
+Wire Wire Line
+	3050 4000 3050 4250
+$Comp
+L GNDREF #PWR?
+U 1 1 580AD10D
+P 4900 5600
+F 0 "#PWR?" H 4900 5350 50  0001 C CNN
+F 1 "GNDREF" H 4900 5450 50  0000 C CNN
+F 2 "" H 4900 5600 50  0000 C CNN
+F 3 "" H 4900 5600 50  0000 C CNN
+	1    4900 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 5600
+Text Label 3950 4000 0    60   ~ 0
+VUSB
+$Comp
+L C_Small C?
+U 1 1 580AD2E6
+P 3050 4350
+F 0 "C?" H 3060 4420 50  0000 L CNN
+F 1 "22uF" H 3060 4270 50  0000 L CNN
+F 2 "" H 3050 4350 50  0000 C CNN
+F 3 "" H 3050 4350 50  0000 C CNN
+	1    3050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4000 3050 4000
+Connection ~ 3050 4000
+$Comp
+L R R?
+U 1 1 580AD514
+P 3700 4300
+F 0 "R?" V 3780 4300 50  0000 C CNN
+F 1 "22R" V 3700 4300 50  0000 C CNN
+F 2 "" V 3630 4300 50  0000 C CNN
+F 3 "" H 3700 4300 50  0000 C CNN
+	1    3700 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 4150 3700 4000
+Connection ~ 3700 4000
+$Comp
+L C_Small C?
+U 1 1 580AD5E7
+P 3850 4350
+F 0 "C?" H 3860 4420 50  0000 L CNN
+F 1 "100nF" H 3860 4270 50  0000 L CNN
+F 2 "" H 3850 4350 50  0000 C CNN
+F 3 "" H 3850 4350 50  0000 C CNN
+	1    3850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4250 3850 4000
+Connection ~ 3850 4000
+Wire Wire Line
+	3050 4450 3700 4450
+Wire Wire Line
+	3700 4450 3850 4450
+Wire Wire Line
+	3850 4450 4400 4450
+Connection ~ 3700 4450
+Connection ~ 4400 4450
+Connection ~ 3850 4450
+$Comp
+L MH2029 L?
+U 1 1 580ADE19
+P 6050 1850
+F 0 "L?" H 6050 1950 60  0000 C CNN
+F 1 "MH2029-300Y" H 6050 1750 60  0000 C CNN
+F 2 "" H 5950 1850 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/h-777565.pdf" H 6200 2000 60  0001 C CNN
+F 4 "0.00@0" H 5800 2100 60  0001 C CNN "Pricing"
+F 5 "Bournes" H 6250 2150 60  0001 C CNN "Manufacturer"
+F 6 "Ferrite Beads" H 6350 2250 60  0001 C CNN "Description"
+	1    6050 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2050 6050 2100
+Wire Wire Line
+	6050 1650 5950 1650
+Wire Wire Line
+	5950 1650 5950 2050
+Wire Wire Line
+	5950 2050 5950 2100
+$Comp
+L C_Small C?
+U 1 1 580ADFDF
+P 6350 2050
+F 0 "C?" H 6360 2120 50  0000 L CNN
+F 1 "1uF" H 6360 1970 50  0000 L CNN
+F 2 "" H 6350 2050 50  0000 C CNN
+F 3 "" H 6350 2050 50  0000 C CNN
+	1    6350 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2050 6250 2050
+Wire Wire Line
+	5700 2050 5700 2100
+Wire Wire Line
+	4450 2050 4650 2050
+Wire Wire Line
+	4650 2050 5350 2050
+Wire Wire Line
+	5350 2050 5450 2050
+Wire Wire Line
+	5450 2050 5600 2050
+Wire Wire Line
+	5600 2050 5700 2050
+Wire Wire Line
+	5700 2050 5950 2050
+Connection ~ 5950 2050
+Wire Wire Line
+	5600 2050 5600 2100
+Connection ~ 5700 2050
+Wire Wire Line
+	5350 2050 5350 2100
+Connection ~ 5600 2050
+$Comp
+L GNDREF #PWR?
+U 1 1 580AE22B
+P 6550 2050
+F 0 "#PWR?" H 6550 1800 50  0001 C CNN
+F 1 "GNDREF" H 6550 1900 50  0000 C CNN
+F 2 "" H 6550 2050 50  0000 C CNN
+F 3 "" H 6550 2050 50  0000 C CNN
+	1    6550 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2050 6450 2050
+$Comp
+L SW_PUSH_SMALL_H SW?
+U 1 1 580AE84C
+P 4250 2350
+F 0 "SW?" H 4100 2450 50  0000 C CNN
+F 1 "RESET" H 4250 2300 50  0000 C CNN
+F 2 "" H 4250 2550 50  0000 C CNN
+F 3 "" H 4250 2550 50  0000 C CNN
+	1    4250 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2350 4050 2350
+Wire Wire Line
+	4050 1800 4050 2350
+Wire Wire Line
+	4050 2350 4050 2450
+Connection ~ 4050 2450
+Wire Wire Line
+	4400 2350 4650 2350
+$Comp
+L R R?
+U 1 1 580AEDBF
+P 4650 2200
+F 0 "R?" V 4730 2200 50  0000 C CNN
+F 1 "10k" V 4650 2200 50  0000 C CNN
+F 2 "" V 4580 2200 50  0000 C CNN
+F 3 "" H 4650 2200 50  0000 C CNN
+	1    4650 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 2350
+$Comp
+L C_Small C?
+U 1 1 580AEEF2
+P 4350 1800
+F 0 "C?" H 4360 1870 50  0000 L CNN
+F 1 "100nF" H 4360 1720 50  0000 L CNN
+F 2 "" H 4350 1800 50  0000 C CNN
+F 3 "" H 4350 1800 50  0000 C CNN
+	1    4350 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 580AEF6C
+P 4350 1550
+F 0 "C?" H 4360 1620 50  0000 L CNN
+F 1 "100nF" V 4250 1450 50  0000 L CNN
+F 2 "" H 4350 1550 50  0000 C CNN
+F 3 "" H 4350 1550 50  0000 C CNN
+	1    4350 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 1100 4450 1350
+Wire Wire Line
+	4450 1350 4450 1550
+Wire Wire Line
+	4450 1550 4450 1800
+Wire Wire Line
+	4450 1800 4450 2050
+Connection ~ 4450 1800
+Connection ~ 4450 2050
+Wire Wire Line
+	4250 1100 4250 1350
+Wire Wire Line
+	4250 1350 4250 1550
+Wire Wire Line
+	4250 1550 4250 1800
+Wire Wire Line
+	4250 1800 4050 1800
+Connection ~ 4050 2350
+Connection ~ 4250 1800
+Connection ~ 4650 2050
+Connection ~ 5350 2050
+Wire Wire Line
+	5450 1600 5450 2050
+Connection ~ 5450 2050
+$Comp
+L +5VD #PWR?
+U 1 1 580B01A1
+P 5200 1100
+F 0 "#PWR?" H 5200 950 50  0001 C CNN
+F 1 "+5VD" H 5200 1240 50  0000 C CNN
+F 2 "" H 5200 1100 50  0000 C CNN
+F 3 "" H 5200 1100 50  0000 C CNN
+	1    5200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1100 5200 1300
+Text Notes 5450 1400 0    60   ~ 0
+This p type MOSFET will connect VUSB to D\nif there is no power from +5VD which is tied to ground
+Wire Wire Line
+	5050 1600 4900 1600
+Text Label 4900 1600 2    60   ~ 0
+VUSB
+Text Label 4850 2050 0    60   ~ 0
++5VARD
+$Comp
+L C_Small C?
+U 1 1 580B06B9
+P 4350 1350
+F 0 "C?" H 4360 1420 50  0000 L CNN
+F 1 "100nF" V 4250 1250 50  0000 L CNN
+F 2 "" H 4350 1350 50  0000 C CNN
+F 3 "" H 4350 1350 50  0000 C CNN
+	1    4350 1350
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 1550
+Connection ~ 4450 1550
+$Comp
+L CP_Small C?
+U 1 1 580B088C
+P 4350 1100
+F 0 "C?" H 4360 1170 50  0000 L CNN
+F 1 "22uF" V 4250 1050 50  0000 L CNN
+F 2 "" H 4350 1100 50  0000 C CNN
+F 3 "" H 4350 1100 50  0000 C CNN
+	1    4350 1100
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 1350
+Connection ~ 4450 1350
+Text Notes 3750 1200 0    60   ~ 0
+Polar Tantalum\ncapacitor\nwith solid \nelectrolyte
+Text HLabel 7550 3650 2    60   BiDi ~ 0
+SDA
+Text HLabel 7550 3550 2    60   BiDi ~ 0
+SCL
+Wire Wire Line
+	7550 3550 6900 3550
+Wire Wire Line
+	7550 3650 6900 3650
+Text HLabel 7550 3950 2    60   BiDi ~ 0
+~CE
+Wire Wire Line
+	6900 3950 7550 3950
+$EndSCHEMATC
