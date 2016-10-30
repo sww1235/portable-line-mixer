@@ -1,4 +1,4 @@
-update=Friday, October 21, 2016 'PMt' 11:36:12 PM
+update=Wednesday, October 26, 2016 'PMt' 03:25:30 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries
@@ -69,3 +67,5 @@ LibName37=opto
 LibName38=atmel
 LibName39=contrib
 LibName40=valves
+[general]
+version=1
