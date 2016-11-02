@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name SW-IQD)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-IQD.pretty)(options "")(descr ""))
+  (lib (name SW-KYCON)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Kycon.pretty)(options "")(descr ""))
+  (lib (name SW-Eswitch)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Eswitch.pretty)(options "")(descr ""))
+  (lib (name SW-Bournes)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Bournes.pretty)(options "")(descr ""))
+  (lib (name SW-Sumida)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Sumida.pretty)(options "")(descr ""))
+  (lib (name SW-Hirose)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Hirose.pretty)(options "")(descr ""))
+  (lib (name SW-Switchcraft)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Switchcraft.pretty)(options "")(descr ""))
+  (lib (name SW-CUI-INC)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-CUI-INC.pretty)(options "")(descr ""))
+)
