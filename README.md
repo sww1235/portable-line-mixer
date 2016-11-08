@@ -1,6 +1,17 @@
 # portable-line-mixer
 A compact line level audio mixer
 
+## Max Power Consumption figures
+
+|Component|Quantity|Current |Voltage   |Total Watts|
+|---------|--------|--------|----------|-----------|
+|Amp      |2       |5.7mA   |+-12V     |274mW      |
+|Max6820  |2       |120uA   |+-5V      |2.4mW      |
+|digipots |8       |5uA,10uA|+-5VD, 5VA|1.2mW      |
+|microproc|1       |27mA    |5V        |135mW      |
+|Total    |        |        |          |412.6mW    |
+|ref total|        |        |          |500mW      |
+
 ## References / sources
 
 ### Code
