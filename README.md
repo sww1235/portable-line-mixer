@@ -1,6 +1,13 @@
 # portable-line-mixer
 A compact line level audio mixer
 
+## TODO
+
+-   move 1/2 of the digipots to underside of board
+-   change line inputs to use db-25f connector
+-   switch to 4 layer PCB
+-   Finalize circuit board layout
+
 ## Max Power Consumption figures
 
 |Component|Quantity|Current |Voltage   |Total Watts|
