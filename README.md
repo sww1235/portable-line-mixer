@@ -5,6 +5,7 @@ A compact line level audio mixer
 
 -   move 1/2 of the digipots to underside of board
 -   change line inputs to use db-25f connector
+-   switch to USB C port for power and microprocessor connection
 -   switch to 4 layer PCB
 -   Finalize circuit board layout
 
