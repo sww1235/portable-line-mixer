@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:portable-line-mixer-rescue
 LIBS:SW-Linear
 LIBS:SW-IQD
 LIBS:SW-NXP
@@ -80,9 +81,11 @@ F 6 "PEC11R Series - 12 mm Incremental Encoder" H 8250 4350 60  0001 C CNN "Desc
 	-1   0    0    1   
 $EndComp
 $Comp
-L USB_OTG P1
+L USB_OTG-RESCUE-portable-line-mixer P1
 U 1 1 580C7DAA
 P 2750 3700
+AR Path="/580C7DAA" Ref="P1"  Part="1" 
+AR Path="/580C77A2/580C7DAA" Ref="P1"  Part="1" 
 F 0 "P1" H 3075 3575 50  0000 C CNN
 F 1 "USB_OTG" H 2750 3900 50  0000 C CNN
 F 2 "SW-Hirose:ZX62D-B-5PA8(30)" V 2700 3600 50  0001 C CNN
