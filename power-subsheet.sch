@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:portable-line-mixer-rescue
 LIBS:SW-Linear
 LIBS:SW-IQD
 LIBS:SW-NXP
