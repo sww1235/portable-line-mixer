@@ -5,20 +5,20 @@ A compact line level audio mixer
 
 -   move 1/2 of the digipots to underside of board
 -   change line inputs to use db-25f connector
--   switch to USB C port for power and microprocessor connection
+-   ~~switch to USB C port for power and microprocessor connection~~
 -   switch to 4 layer PCB
 -   Finalize circuit board layout
 
 ## Max Power Consumption figures
 
-|Component|Quantity|Current |Voltage   |Total Watts|
-|---------|--------|--------|----------|-----------|
-|Amp      |2       |5.7mA   |+-12V     |274mW      |
-|Max6820  |2       |120uA   |+-5V      |2.4mW      |
-|digipots |8       |5uA,10uA|+-5VD, 5VA|1.2mW      |
-|microproc|1       |27mA    |5V        |135mW      |
-|Total    |        |        |          |412.6mW    |
-|ref total|        |        |          |500mW      |
+| Component | Quantity | Current  | Voltage    | Total Watts |
+|:----------|:---------|:---------|:-----------|:------------|
+| Amp       | 2        | 5.7mA    | +-12V      | 274mW       |
+| Max6820   | 2        | 120uA    | +-5V       | 2.4mW       |
+| digipots  | 8        | 5uA,10uA | +-5VD, 5VA | 1.2mW       |
+| microproc | 1        | 27mA     | 5V         | 135mW       |
+| Total     |          |          |            | 412.6mW     |
+| ref total |          |          |            | 500mW       |
 
 ## References / sources
 
