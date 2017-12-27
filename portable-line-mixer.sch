@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:portable-line-mixer-rescue
 LIBS:SW-Linear
 LIBS:SW-IQD
@@ -41,7 +41,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:portable-line-mixer-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -105,8 +105,8 @@ F1 "stereo-input.sch" 60
 F2 "SDA" B R 2450 3850 60 
 F3 "SCL" B R 2450 3950 60 
 F4 "~CE" B R 2450 4050 60 
-F5 "LOUT" B R 2450 4350 60 
-F6 "ROUT" B R 2450 4250 60 
+F5 "LOUT" O R 2450 4350 60 
+F6 "ROUT" O R 2450 4250 60 
 F7 "A0" B L 1250 3850 60 
 F8 "A1" B L 1250 3950 60 
 F9 "A2" B L 1250 4050 60 

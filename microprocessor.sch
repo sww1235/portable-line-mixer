@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:portable-line-mixer-rescue
 LIBS:SW-Linear
 LIBS:SW-IQD
@@ -41,7 +41,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:portable-line-mixer-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
