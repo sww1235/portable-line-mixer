@@ -1,0 +1,1078 @@
+EESchema Schematic File Version 4
+LIBS:portable-line-mixer-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1250 750  1200 750 
+U 5809B3A1
+F0 "Stereo-Input-0" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B R 2450 850 60 
+F3 "SCL" B R 2450 950 60 
+F4 "~CE" B R 2450 1050 60 
+F5 "LOUT" B R 2450 1350 60 
+F6 "ROUT" B R 2450 1250 60 
+F7 "A0" B L 1250 850 60 
+F8 "A1" B L 1250 950 60 
+F9 "A2" B L 1250 1050 60 
+$EndSheet
+$Sheet
+S 1250 1800 1200 750 
+U 5809D2C4
+F0 "Stereo-Input-1" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B R 2450 1900 60 
+F3 "SCL" B R 2450 2000 60 
+F4 "~CE" B R 2450 2100 60 
+F5 "LOUT" B R 2450 2400 60 
+F6 "ROUT" B R 2450 2300 60 
+F7 "A0" B L 1250 1900 60 
+F8 "A1" B L 1250 2000 60 
+F9 "A2" B L 1250 2100 60 
+$EndSheet
+$Sheet
+S 1250 2800 1200 750 
+U 5809D6F7
+F0 "Stereo-Input-2" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B R 2450 2900 60 
+F3 "SCL" B R 2450 3000 60 
+F4 "~CE" B R 2450 3100 60 
+F5 "LOUT" B R 2450 3400 60 
+F6 "ROUT" B R 2450 3300 60 
+F7 "A0" B L 1250 2900 60 
+F8 "A1" B L 1250 3000 60 
+F9 "A2" B L 1250 3100 60 
+$EndSheet
+$Sheet
+S 1250 3750 1200 750 
+U 5809D9F1
+F0 "Stereo-Input-3" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B R 2450 3850 60 
+F3 "SCL" B R 2450 3950 60 
+F4 "~CE" B R 2450 4050 60 
+F5 "LOUT" O R 2450 4350 60 
+F6 "ROUT" O R 2450 4250 60 
+F7 "A0" B L 1250 3850 60 
+F8 "A1" B L 1250 3950 60 
+F9 "A2" B L 1250 4050 60 
+$EndSheet
+$Sheet
+S 5150 750  1200 750 
+U 580A1243
+F0 "Stereo-Input-4" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B L 5150 850 60 
+F3 "SCL" B L 5150 950 60 
+F4 "~CE" B L 5150 1050 60 
+F5 "LOUT" B L 5150 1350 60 
+F6 "ROUT" B L 5150 1250 60 
+F7 "A0" B R 6350 850 60 
+F8 "A1" B R 6350 950 60 
+F9 "A2" B R 6350 1050 60 
+$EndSheet
+$Sheet
+S 5150 1800 1200 750 
+U 580A124D
+F0 "Stereo-Input-5" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B L 5150 1900 60 
+F3 "SCL" B L 5150 2000 60 
+F4 "~CE" B L 5150 2100 60 
+F5 "LOUT" B L 5150 2400 60 
+F6 "ROUT" B L 5150 2300 60 
+F7 "A0" B R 6350 1900 60 
+F8 "A1" B R 6350 2000 60 
+F9 "A2" B R 6350 2100 60 
+$EndSheet
+$Sheet
+S 5150 2800 1200 750 
+U 580A1257
+F0 "Stereo-Input-6" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B L 5150 2900 60 
+F3 "SCL" B L 5150 3000 60 
+F4 "~CE" B L 5150 3100 60 
+F5 "LOUT" B L 5150 3400 60 
+F6 "ROUT" B L 5150 3300 60 
+F7 "A0" B R 6350 2900 60 
+F8 "A1" B R 6350 3000 60 
+F9 "A2" B R 6350 3100 60 
+$EndSheet
+$Sheet
+S 5150 3750 1200 750 
+U 580A1261
+F0 "Stereo-Input-7" 60
+F1 "stereo-input.sch" 60
+F2 "SDA" B L 5150 3850 60 
+F3 "SCL" B L 5150 3950 60 
+F4 "~CE" B L 5150 4050 60 
+F5 "LOUT" B L 5150 4350 60 
+F6 "ROUT" B L 5150 4250 60 
+F7 "A0" B R 6350 3850 60 
+F8 "A1" B R 6350 3950 60 
+F9 "A2" B R 6350 4050 60 
+$EndSheet
+Text Notes 7700 1450 0    60   ~ 0
+Each input module has jack, pot and summing resistor = 10k\n\n+5VA = analog +5V, +5VD = digital +5V, (separate regulators)\n-5V, GNDREF = global ground
+$Comp
+L power1:GNDREF #PWR01
+U 1 1 580A4107
+P 900 850
+F 0 "#PWR01" H 900 600 50  0001 C CNN
+F 1 "GNDREF" H 900 700 50  0000 C CNN
+F 2 "" H 900 850 50  0000 C CNN
+F 3 "" H 900 850 50  0000 C CNN
+	1    900  850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  850  1200 850 
+Wire Wire Line
+	1250 950  1200 950 
+Wire Wire Line
+	1200 850  1200 950 
+Connection ~ 1200 850 
+Wire Wire Line
+	1200 1050 1250 1050
+Connection ~ 1200 950 
+$Comp
+L power1:+5VD #PWR02
+U 1 1 580A48A9
+P 900 1900
+F 0 "#PWR02" H 900 1750 50  0001 C CNN
+F 1 "+5VD" H 900 2040 50  0000 C CNN
+F 2 "" H 900 1900 50  0000 C CNN
+F 3 "" H 900 1900 50  0000 C CNN
+	1    900  1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 1900 900  1900
+$Comp
+L power1:GNDREF #PWR03
+U 1 1 580A4D43
+P 750 2000
+F 0 "#PWR03" H 750 1750 50  0001 C CNN
+F 1 "GNDREF" H 750 1850 50  0000 C CNN
+F 2 "" H 750 2000 50  0000 C CNN
+F 3 "" H 750 2000 50  0000 C CNN
+	1    750  2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  2000 1200 2000
+Wire Wire Line
+	1250 2100 1200 2100
+Wire Wire Line
+	1200 2100 1200 2000
+Connection ~ 1200 2000
+$Comp
+L power1:+5VD #PWR04
+U 1 1 580A55A8
+P 950 3000
+F 0 "#PWR04" H 950 2850 50  0001 C CNN
+F 1 "+5VD" H 950 3140 50  0000 C CNN
+F 2 "" H 950 3000 50  0000 C CNN
+F 3 "" H 950 3000 50  0000 C CNN
+	1    950  3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  3000 1250 3000
+$Comp
+L power1:+5VD #PWR05
+U 1 1 580A5804
+P 1000 3850
+F 0 "#PWR05" H 1000 3700 50  0001 C CNN
+F 1 "+5VD" H 1000 3990 50  0000 C CNN
+F 2 "" H 1000 3850 50  0000 C CNN
+F 3 "" H 1000 3850 50  0000 C CNN
+	1    1000 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 3850 1200 3850
+Wire Wire Line
+	1250 3950 1200 3950
+Wire Wire Line
+	1200 3950 1200 3850
+Connection ~ 1200 3850
+$Comp
+L power1:+5VD #PWR06
+U 1 1 580A8635
+P 6900 1050
+F 0 "#PWR06" H 6900 900 50  0001 C CNN
+F 1 "+5VD" H 6900 1190 50  0000 C CNN
+F 2 "" H 6900 1050 50  0000 C CNN
+F 3 "" H 6900 1050 50  0000 C CNN
+	1    6900 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 1050 6900 1050
+$Comp
+L power1:+5VD #PWR07
+U 1 1 580A8E9C
+P 6800 2100
+F 0 "#PWR07" H 6800 1950 50  0001 C CNN
+F 1 "+5VD" H 6800 2240 50  0000 C CNN
+F 2 "" H 6800 2100 50  0000 C CNN
+F 3 "" H 6800 2100 50  0000 C CNN
+	1    6800 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2100 6450 2100
+Wire Wire Line
+	6450 2100 6450 1900
+Wire Wire Line
+	6450 1900 6350 1900
+Connection ~ 6450 2100
+$Comp
+L power1:+5VD #PWR08
+U 1 1 580A940F
+P 6750 3100
+F 0 "#PWR08" H 6750 2950 50  0001 C CNN
+F 1 "+5VD" H 6750 3240 50  0000 C CNN
+F 2 "" H 6750 3100 50  0000 C CNN
+F 3 "" H 6750 3100 50  0000 C CNN
+	1    6750 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 3100 6400 3100
+Wire Wire Line
+	6400 3100 6400 3000
+Wire Wire Line
+	6400 3000 6350 3000
+Connection ~ 6400 3100
+$Comp
+L power1:+5VD #PWR09
+U 1 1 580A974A
+P 6650 4050
+F 0 "#PWR09" H 6650 3900 50  0001 C CNN
+F 1 "+5VD" H 6650 4190 50  0000 C CNN
+F 2 "" H 6650 4050 50  0000 C CNN
+F 3 "" H 6650 4050 50  0000 C CNN
+	1    6650 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 4050 6400 4050
+Wire Wire Line
+	6400 3850 6400 3950
+Wire Wire Line
+	6400 3950 6350 3950
+Connection ~ 6400 4050
+Wire Wire Line
+	6400 3850 6350 3850
+Connection ~ 6400 3950
+$Comp
+L power1:GNDREF #PWR010
+U 1 1 580A9CED
+P 750 2900
+F 0 "#PWR010" H 750 2650 50  0001 C CNN
+F 1 "GNDREF" H 750 2750 50  0000 C CNN
+F 2 "" H 750 2900 50  0000 C CNN
+F 3 "" H 750 2900 50  0000 C CNN
+	1    750  2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  2900 1150 2900
+Wire Wire Line
+	1250 3100 1150 3100
+Wire Wire Line
+	1150 3100 1150 2900
+Connection ~ 1150 2900
+$Comp
+L power1:GNDREF #PWR011
+U 1 1 580AA1BC
+P 900 4050
+F 0 "#PWR011" H 900 3800 50  0001 C CNN
+F 1 "GNDREF" H 900 3900 50  0000 C CNN
+F 2 "" H 900 4050 50  0000 C CNN
+F 3 "" H 900 4050 50  0000 C CNN
+	1    900  4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 4050 900  4050
+$Comp
+L power1:GNDREF #PWR012
+U 1 1 580AAAEC
+P 7000 850
+F 0 "#PWR012" H 7000 600 50  0001 C CNN
+F 1 "GNDREF" H 7000 700 50  0000 C CNN
+F 2 "" H 7000 850 50  0000 C CNN
+F 3 "" H 7000 850 50  0000 C CNN
+	1    7000 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 850  6400 850 
+Wire Wire Line
+	6350 950  6400 950 
+Wire Wire Line
+	6400 950  6400 850 
+Connection ~ 6400 850 
+$Comp
+L power1:GNDREF #PWR013
+U 1 1 580AB697
+P 6550 2000
+F 0 "#PWR013" H 6550 1750 50  0001 C CNN
+F 1 "GNDREF" H 6550 1850 50  0000 C CNN
+F 2 "" H 6550 2000 50  0000 C CNN
+F 3 "" H 6550 2000 50  0000 C CNN
+	1    6550 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 2000 6550 2000
+$Comp
+L power1:GNDREF #PWR014
+U 1 1 580ABD8C
+P 6550 2900
+F 0 "#PWR014" H 6550 2650 50  0001 C CNN
+F 1 "GNDREF" H 6550 2750 50  0000 C CNN
+F 2 "" H 6550 2900 50  0000 C CNN
+F 3 "" H 6550 2900 50  0000 C CNN
+	1    6550 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 2900 6550 2900
+Wire Wire Line
+	2450 850  2600 850 
+Wire Wire Line
+	2450 950  2700 950 
+Wire Wire Line
+	2450 1050 2800 1050
+Wire Wire Line
+	2450 1250 2900 1250
+Wire Wire Line
+	2450 1350 3000 1350
+Wire Wire Line
+	2600 850  2600 1900
+Wire Wire Line
+	2600 1900 2450 1900
+Connection ~ 2600 850 
+Wire Wire Line
+	2600 2900 2450 2900
+Connection ~ 2600 1900
+Wire Wire Line
+	2600 3850 2450 3850
+Connection ~ 2600 2900
+Wire Wire Line
+	5000 850  5000 1900
+Wire Wire Line
+	5000 1900 5150 1900
+Connection ~ 5000 850 
+Wire Wire Line
+	5000 2900 5150 2900
+Connection ~ 5000 1900
+Wire Wire Line
+	5000 3850 5150 3850
+Connection ~ 5000 2900
+Wire Wire Line
+	2700 950  2700 2000
+Wire Wire Line
+	2700 2000 2450 2000
+Connection ~ 2700 950 
+Wire Wire Line
+	2700 3000 2450 3000
+Connection ~ 2700 2000
+Wire Wire Line
+	2700 3950 2450 3950
+Connection ~ 2700 3000
+Wire Wire Line
+	4900 2000 5150 2000
+Connection ~ 4900 950 
+Connection ~ 4900 2000
+Wire Wire Line
+	4900 950  4900 2000
+Wire Wire Line
+	4900 3000 5150 3000
+Wire Wire Line
+	4900 3950 5150 3950
+Connection ~ 4900 3000
+Wire Wire Line
+	4800 4050 5150 4050
+Wire Wire Line
+	4800 1050 4800 2100
+Connection ~ 4800 1050
+Wire Wire Line
+	5150 2100 4800 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	5150 3100 4800 3100
+Connection ~ 4800 3100
+Wire Wire Line
+	2800 4050 2450 4050
+Wire Wire Line
+	2800 1050 2800 2100
+Connection ~ 2800 1050
+Wire Wire Line
+	2450 2100 2800 2100
+Connection ~ 2800 2100
+Wire Wire Line
+	2450 3100 2800 3100
+Connection ~ 2800 3100
+Wire Wire Line
+	2900 4250 2450 4250
+Wire Wire Line
+	2900 1250 2900 2300
+Connection ~ 2900 1250
+Wire Wire Line
+	2450 2300 2900 2300
+Connection ~ 2900 2300
+Wire Wire Line
+	2450 3300 2900 3300
+Connection ~ 2900 3300
+Wire Wire Line
+	3000 4350 2450 4350
+Wire Wire Line
+	3000 1350 3000 2400
+Connection ~ 3000 1350
+Wire Wire Line
+	2450 2400 3000 2400
+Connection ~ 3000 2400
+Wire Wire Line
+	2450 3400 3000 3400
+Connection ~ 3000 3400
+Wire Wire Line
+	4700 4250 5150 4250
+Wire Wire Line
+	4700 1250 4700 2300
+Connection ~ 4700 1250
+Wire Wire Line
+	5150 2300 4700 2300
+Connection ~ 4700 2300
+Wire Wire Line
+	5150 3300 4700 3300
+Connection ~ 4700 3300
+Wire Wire Line
+	4600 4350 5150 4350
+Wire Wire Line
+	4600 1350 4600 2400
+Connection ~ 4600 1350
+Wire Wire Line
+	5150 2400 4600 2400
+Connection ~ 4600 2400
+Wire Wire Line
+	5150 3400 4600 3400
+Connection ~ 4600 3400
+$Comp
+L SW-texas-op_amps:RC4560 U1
+U 2 1 580B2CB5
+P 3550 5450
+F 0 "U1" H 3500 5350 60  0000 C CNN
+F 1 "RC4560" H 3600 5450 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 3600 5450 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 3600 5450 60  0001 C CNN
+F 4 "Any" H 3550 5450 60  0001 C CNN "Source"
+F 5 "No" H 3550 5450 60  0001 C CNN "Critical"
+F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 3600 5450 60  0001 C CNN "Characteristics"
+F 7 "PDIP (8)" H 4000 5850 60  0001 C CNN "Package ID"
+F 8 "RC4560" H 3900 5750 60  0001 C CNN "MF part number"
+F 9 "Texas Instruments" H 3800 5650 60  0001 C CNN "Manufacturer"
+F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 3700 5550 60  0001 C CNN "Description"
+	2    3550 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L SW-texas-op_amps:RC4560 U1
+U 1 1 580B3637
+P 3500 6950
+F 0 "U1" H 3450 6850 60  0000 C CNN
+F 1 "RC4560" H 3550 6950 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 3550 6950 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 3550 6950 60  0001 C CNN
+F 4 "Any" H 3500 6950 60  0001 C CNN "Source"
+F 5 "No" H 3500 6950 60  0001 C CNN "Critical"
+F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 3550 6950 60  0001 C CNN "Characteristics"
+F 7 "PDIP (8)" H 3950 7350 60  0001 C CNN "Package ID"
+F 8 "RC4560" H 3850 7250 60  0001 C CNN "MF part number"
+F 9 "Texas Instruments" H 3750 7150 60  0001 C CNN "Manufacturer"
+F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 3650 7050 60  0001 C CNN "Description"
+	1    3500 6950
+	1    0    0    1   
+$EndComp
+$Comp
+L SW-texas-op_amps:RC4560 U2
+U 1 1 580B3FF5
+P 5100 5600
+F 0 "U2" H 5050 5500 60  0000 C CNN
+F 1 "RC4560" H 5150 5600 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5150 5600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 5150 5600 60  0001 C CNN
+F 4 "Any" H 5100 5600 60  0001 C CNN "Source"
+F 5 "No" H 5100 5600 60  0001 C CNN "Critical"
+F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 5150 5600 60  0001 C CNN "Characteristics"
+F 7 "PDIP (8)" H 5550 6000 60  0001 C CNN "Package ID"
+F 8 "RC4560" H 5450 5900 60  0001 C CNN "MF part number"
+F 9 "Texas Instruments" H 5350 5800 60  0001 C CNN "Manufacturer"
+F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 5250 5700 60  0001 C CNN "Description"
+	1    5100 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L SW-texas-op_amps:RC4560 U2
+U 2 1 580B5187
+P 5100 7100
+F 0 "U2" H 5050 7000 60  0000 C CNN
+F 1 "RC4560" H 5150 7100 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5150 7100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 5150 7100 60  0001 C CNN
+F 4 "Any" H 5100 7100 60  0001 C CNN "Source"
+F 5 "No" H 5100 7100 60  0001 C CNN "Critical"
+F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 5150 7100 60  0001 C CNN "Characteristics"
+F 7 "PDIP (8)" H 5550 7500 60  0001 C CNN "Package ID"
+F 8 "RC4560" H 5450 7400 60  0001 C CNN "MF part number"
+F 9 "Texas Instruments" H 5350 7300 60  0001 C CNN "Manufacturer"
+F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 5250 7200 60  0001 C CNN "Description"
+	2    5100 7100
+	1    0    0    1   
+$EndComp
+Text Notes 4050 5750 0    60   ~ 0
+LEFT
+Text Notes 4100 7200 0    60   ~ 0
+RIGHT
+Wire Wire Line
+	3000 5300 3150 5300
+Connection ~ 3000 4350
+$Comp
+L device:R R2
+U 1 1 580B7023
+P 3600 4800
+F 0 "R2" V 3680 4800 50  0000 C CNN
+F 1 "10k" V 3600 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3530 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0000 C CNN
+	1    3600 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R3
+U 1 1 580B71E8
+P 5150 4950
+F 0 "R3" V 5230 4950 50  0000 C CNN
+F 1 "10k" V 5150 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5080 4950 50  0001 C CNN
+F 3 "" H 5150 4950 50  0000 C CNN
+	1    5150 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C2
+U 1 1 580B7BF4
+P 3600 4600
+F 0 "C2" H 3625 4700 50  0000 L CNN
+F 1 "27pF" H 3625 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 4450 50  0001 C CNN
+F 3 "" H 3600 4600 50  0000 C CNN
+	1    3600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C3
+U 1 1 580B8B1D
+P 5150 4800
+F 0 "C3" H 5175 4900 50  0000 L CNN
+F 1 "47pF" H 5175 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 4650 50  0001 C CNN
+F 3 "" H 5150 4800 50  0000 C CNN
+	1    5150 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 5300 3150 4800
+Wire Wire Line
+	3150 4800 3450 4800
+Wire Wire Line
+	3450 4800 3450 4600
+Wire Wire Line
+	3750 4800 3750 4600
+Wire Wire Line
+	3750 4800 4150 4800
+Wire Wire Line
+	4150 4800 4150 5450
+$Comp
+L device:R R1
+U 1 1 580BA60C
+P 3550 6350
+F 0 "R1" V 3630 6350 50  0000 C CNN
+F 1 "10k" V 3550 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3480 6350 50  0001 C CNN
+F 3 "" H 3550 6350 50  0000 C CNN
+	1    3550 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C1
+U 1 1 580BA612
+P 3550 6200
+F 0 "C1" H 3575 6300 50  0000 L CNN
+F 1 "27pF" H 3575 6100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3588 6050 50  0001 C CNN
+F 3 "" H 3550 6200 50  0000 C CNN
+	1    3550 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 6350 3400 6350
+Wire Wire Line
+	3400 6350 3400 6200
+Wire Wire Line
+	3700 6350 3700 6200
+Wire Wire Line
+	3700 6350 4100 6350
+Wire Wire Line
+	3100 6350 3100 6800
+Wire Wire Line
+	4100 6350 4100 6950
+Wire Wire Line
+	5000 4800 5000 4950
+Wire Wire Line
+	5300 4800 5300 4950
+Wire Wire Line
+	5000 4950 4700 4950
+Wire Wire Line
+	4700 4950 4700 5450
+Wire Wire Line
+	5300 4950 5700 4950
+Wire Wire Line
+	5700 4950 5700 5600
+$Comp
+L device:R R4
+U 1 1 580BC069
+P 5150 6450
+F 0 "R4" V 5230 6450 50  0000 C CNN
+F 1 "10k" V 5150 6450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5080 6450 50  0001 C CNN
+F 3 "" H 5150 6450 50  0000 C CNN
+	1    5150 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C4
+U 1 1 580BC06F
+P 5150 6250
+F 0 "C4" H 5175 6350 50  0000 L CNN
+F 1 "47pF" H 5175 6150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 6100 50  0001 C CNN
+F 3 "" H 5150 6250 50  0000 C CNN
+	1    5150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 6250 5000 6450
+Wire Wire Line
+	5300 6250 5300 6450
+Wire Wire Line
+	5000 6450 4700 6450
+Wire Wire Line
+	5300 6450 5700 6450
+Wire Wire Line
+	4700 6450 4700 6950
+Wire Wire Line
+	5700 6450 5700 7100
+Wire Wire Line
+	4700 5450 4150 5450
+Wire Wire Line
+	4700 6950 4100 6950
+$Comp
+L power1:-12VA #PWR015
+U 1 1 580BCC5B
+P 3600 5100
+F 0 "#PWR015" H 3600 4950 50  0001 C CNN
+F 1 "-12VA" H 3600 5240 50  0000 C CNN
+F 2 "" H 3600 5100 50  0000 C CNN
+F 3 "" H 3600 5100 50  0000 C CNN
+	1    3600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:-12VA #PWR016
+U 1 1 580BD87D
+P 3550 6600
+F 0 "#PWR016" H 3550 6450 50  0001 C CNN
+F 1 "-12VA" H 3550 6740 50  0000 C CNN
+F 2 "" H 3550 6600 50  0000 C CNN
+F 3 "" H 3550 6600 50  0000 C CNN
+	1    3550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:-12VA #PWR017
+U 1 1 580BDA2F
+P 5150 6750
+F 0 "#PWR017" H 5150 6600 50  0001 C CNN
+F 1 "-12VA" H 5150 6890 50  0000 C CNN
+F 2 "" H 5150 6750 50  0000 C CNN
+F 3 "" H 5150 6750 50  0000 C CNN
+	1    5150 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:-12VA #PWR018
+U 1 1 580BEB7A
+P 5150 5250
+F 0 "#PWR018" H 5150 5100 50  0001 C CNN
+F 1 "-12VA" H 5150 5390 50  0000 C CNN
+F 2 "" H 5150 5250 50  0000 C CNN
+F 3 "" H 5150 5250 50  0000 C CNN
+	1    5150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:+12VA #PWR019
+U 1 1 580BF2C0
+P 3550 7300
+F 0 "#PWR019" H 3550 7150 50  0001 C CNN
+F 1 "+12VA" H 3550 7440 50  0000 C CNN
+F 2 "" H 3550 7300 50  0000 C CNN
+F 3 "" H 3550 7300 50  0000 C CNN
+	1    3550 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power1:+12VA #PWR020
+U 1 1 580BF479
+P 5150 7450
+F 0 "#PWR020" H 5150 7300 50  0001 C CNN
+F 1 "+12VA" H 5150 7590 50  0000 C CNN
+F 2 "" H 5150 7450 50  0000 C CNN
+F 3 "" H 5150 7450 50  0000 C CNN
+	1    5150 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power1:+12VA #PWR021
+U 1 1 580BF62B
+P 5150 5950
+F 0 "#PWR021" H 5150 5800 50  0001 C CNN
+F 1 "+12VA" H 5150 6090 50  0000 C CNN
+F 2 "" H 5150 5950 50  0000 C CNN
+F 3 "" H 5150 5950 50  0000 C CNN
+	1    5150 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power1:+12VA #PWR022
+U 1 1 580BF7DD
+P 3600 5800
+F 0 "#PWR022" H 3600 5650 50  0001 C CNN
+F 1 "+12VA" H 3600 5940 50  0000 C CNN
+F 2 "" H 3600 5800 50  0000 C CNN
+F 3 "" H 3600 5800 50  0000 C CNN
+	1    3600 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power1:GNDREF #PWR023
+U 1 1 580C026A
+P 3150 5600
+F 0 "#PWR023" H 3150 5350 50  0001 C CNN
+F 1 "GNDREF" H 3150 5450 50  0000 C CNN
+F 2 "" H 3150 5600 50  0000 C CNN
+F 3 "" H 3150 5600 50  0000 C CNN
+	1    3150 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power1:GNDREF #PWR024
+U 1 1 580C067D
+P 3100 7100
+F 0 "#PWR024" H 3100 6850 50  0001 C CNN
+F 1 "GNDREF" H 3100 6950 50  0000 C CNN
+F 2 "" H 3100 7100 50  0000 C CNN
+F 3 "" H 3100 7100 50  0000 C CNN
+	1    3100 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power1:GNDREF #PWR025
+U 1 1 580C082C
+P 4700 7250
+F 0 "#PWR025" H 4700 7000 50  0001 C CNN
+F 1 "GNDREF" H 4700 7100 50  0000 C CNN
+F 2 "" H 4700 7250 50  0000 C CNN
+F 3 "" H 4700 7250 50  0000 C CNN
+	1    4700 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L power1:GNDREF #PWR026
+U 1 1 580C09DB
+P 4700 5750
+F 0 "#PWR026" H 4700 5500 50  0001 C CNN
+F 1 "GNDREF" H 4700 5600 50  0000 C CNN
+F 2 "" H 4700 5750 50  0000 C CNN
+F 3 "" H 4700 5750 50  0000 C CNN
+	1    4700 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 6800 2900 6800
+Connection ~ 2900 4250
+$Comp
+L SW-con:JACK-TRS J1
+U 1 1 580C183E
+P 6850 5900
+F 0 "J1" H 6850 5800 60  0000 C CNN
+F 1 "JACK-TRS" H 6850 5900 60  0000 C CNN
+F 2 "SW-CUI-INC:SJ1-353XNG-3Pin" H 6850 5900 60  0001 C CNN
+F 3 "" H 6850 5900 60  0000 C CNN
+	1    6850 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R5
+U 1 1 580C1AD0
+P 5950 5950
+F 0 "R5" V 6030 5950 50  0000 C CNN
+F 1 "100R" V 5950 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5880 5950 50  0001 C CNN
+F 3 "" H 5950 5950 50  0000 C CNN
+	1    5950 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 5950 6600 5950
+Wire Wire Line
+	6100 5950 6200 5950
+Wire Wire Line
+	5800 5950 5800 5600
+Wire Wire Line
+	5800 5600 5700 5600
+$Comp
+L device:R R6
+U 1 1 580C4B6A
+P 5950 6150
+F 0 "R6" V 6030 6150 50  0000 C CNN
+F 1 "100R" V 5950 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5880 6150 50  0001 C CNN
+F 3 "" H 5950 6150 50  0000 C CNN
+	1    5950 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 6150 6200 6150
+Wire Wire Line
+	6400 6150 6600 6150
+Wire Wire Line
+	5800 6450 5800 6150
+Connection ~ 5700 6450
+$Comp
+L power1:GNDREF #PWR027
+U 1 1 580C5655
+P 6600 6300
+F 0 "#PWR027" H 6600 6050 50  0001 C CNN
+F 1 "GNDREF" H 6600 6150 50  0000 C CNN
+F 2 "" H 6600 6300 50  0000 C CNN
+F 3 "" H 6600 6300 50  0000 C CNN
+	1    6600 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 6200 6600 6300
+$Sheet
+S 7950 2350 1300 1050
+U 580C6409
+F0 "Power Supply" 60
+F1 "power-subsheet.sch" 60
+$EndSheet
+$Sheet
+S 8150 4150 1300 1000
+U 580C77A2
+F0 "Microprocessor" 60
+F1 "microprocessor.sch" 60
+F2 "SDA" B L 8150 4300 60 
+F3 "SCL" B L 8150 4450 60 
+F4 "~CE" B L 8150 4600 60 
+F5 "TXserial" B R 9450 4400 60 
+$EndSheet
+Text Label 3400 850  0    60   ~ 0
+SDA
+Text Label 3400 950  0    60   ~ 0
+SCL
+Text Label 3400 1050 0    60   ~ 0
+~CE
+Text Label 7900 4300 2    60   ~ 0
+SDA
+Text Label 7900 4450 2    60   ~ 0
+SCL
+Text Label 7900 4600 2    60   ~ 0
+~CE
+Wire Wire Line
+	7700 4300 8150 4300
+Wire Wire Line
+	7700 4450 8150 4450
+Wire Wire Line
+	8150 4600 7900 4600
+NoConn ~ 9450 4400
+Text Notes 9500 4350 0    60   ~ 0
+Potential connection\nfor an LCD display
+$Comp
+L device:CP_Small C5
+U 1 1 5813E56A
+P 6300 5950
+F 0 "C5" H 6310 6020 50  0000 L CNN
+F 1 "10uF" H 6310 5870 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 6300 5950 50  0001 C CNN
+F 3 "" H 6300 5950 50  0000 C CNN
+	1    6300 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:CP_Small C6
+U 1 1 5813FB41
+P 6300 6150
+F 0 "C6" H 6310 6220 50  0000 L CNN
+F 1 "10uF" H 6310 6070 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 6300 6150 50  0001 C CNN
+F 3 "" H 6300 6150 50  0000 C CNN
+	1    6300 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R34
+U 1 1 5815B213
+P 7550 4300
+F 0 "R34" V 7630 4300 50  0000 C CNN
+F 1 "4k7" V 7550 4300 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 7480 4300 50  0001 C CNN
+F 3 "" H 7550 4300 50  0000 C CNN
+	1    7550 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R35
+U 1 1 5815B4D4
+P 7550 4450
+F 0 "R35" V 7630 4450 50  0000 C CNN
+F 1 "4k7" V 7550 4450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 7480 4450 50  0001 C CNN
+F 3 "" H 7550 4450 50  0000 C CNN
+	1    7550 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4300 7350 4300
+Wire Wire Line
+	7350 4300 7350 4450
+Wire Wire Line
+	7350 4450 7400 4450
+$Comp
+L power1:+5VD #PWR028
+U 1 1 5815BF9A
+P 7350 4300
+F 0 "#PWR028" H 7350 4150 50  0001 C CNN
+F 1 "+5VD" H 7350 4440 50  0000 C CNN
+F 2 "" H 7350 4300 50  0000 C CNN
+F 3 "" H 7350 4300 50  0000 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 850  1250 850 
+Wire Wire Line
+	1200 950  1200 1050
+Wire Wire Line
+	1200 2000 1250 2000
+Wire Wire Line
+	1200 3850 1250 3850
+Wire Wire Line
+	6450 2100 6800 2100
+Wire Wire Line
+	6400 3100 6750 3100
+Wire Wire Line
+	6400 4050 6650 4050
+Wire Wire Line
+	6400 3950 6400 4050
+Wire Wire Line
+	1150 2900 1250 2900
+Wire Wire Line
+	6400 850  7000 850 
+Wire Wire Line
+	2600 850  5000 850 
+Wire Wire Line
+	2600 1900 2600 2900
+Wire Wire Line
+	2600 2900 2600 3850
+Wire Wire Line
+	5000 850  5150 850 
+Wire Wire Line
+	5000 1900 5000 2900
+Wire Wire Line
+	5000 2900 5000 3850
+Wire Wire Line
+	2700 950  4900 950 
+Wire Wire Line
+	2700 2000 2700 3000
+Wire Wire Line
+	2700 3000 2700 3950
+Wire Wire Line
+	4900 950  5150 950 
+Wire Wire Line
+	4900 2000 4900 3000
+Wire Wire Line
+	4900 3000 4900 3950
+Wire Wire Line
+	4800 1050 5150 1050
+Wire Wire Line
+	4800 2100 4800 3100
+Wire Wire Line
+	4800 3100 4800 4050
+Wire Wire Line
+	2800 1050 4800 1050
+Wire Wire Line
+	2800 2100 2800 3100
+Wire Wire Line
+	2800 3100 2800 4050
+Wire Wire Line
+	2900 1250 4700 1250
+Wire Wire Line
+	2900 2300 2900 3300
+Wire Wire Line
+	2900 3300 2900 4250
+Wire Wire Line
+	3000 1350 4600 1350
+Wire Wire Line
+	3000 2400 3000 3400
+Wire Wire Line
+	3000 3400 3000 4350
+Wire Wire Line
+	4700 1250 5150 1250
+Wire Wire Line
+	4700 2300 4700 3300
+Wire Wire Line
+	4700 3300 4700 4250
+Wire Wire Line
+	4600 1350 5150 1350
+Wire Wire Line
+	4600 2400 4600 3400
+Wire Wire Line
+	4600 3400 4600 4350
+Wire Wire Line
+	3000 4350 3000 5300
+Wire Wire Line
+	2900 4250 2900 6800
+Wire Wire Line
+	5700 6450 5800 6450
+$EndSCHEMATC
