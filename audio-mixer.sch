@@ -14,460 +14,83 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7700 1450 0    60   ~ 0
-Each input module has jack, pot and summing resistor = 10k\n\n+5VA = analog +5V, +5VD = digital +5V, (separate regulators)\n-5V, GNDREF = global ground
-Wire Wire Line
-	7950 5750 7500 5750
-Wire Wire Line
-	8050 5850 7500 5850
-$Comp
-L SW-texas-op_amps:RC4560 U?
-U 1 1 580B2CB5
-P 8600 6950
-F 0 "U?" H 8550 6850 60  0000 C CNN
-F 1 "RC4560" H 8650 6950 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 8650 6950 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 8650 6950 60  0001 C CNN
-F 4 "Any" H 8600 6950 60  0001 C CNN "Source"
-F 5 "No" H 8600 6950 60  0001 C CNN "Critical"
-F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 8650 6950 60  0001 C CNN "Characteristics"
-F 7 "PDIP (8)" H 9050 7350 60  0001 C CNN "Package ID"
-F 8 "RC4560" H 8950 7250 60  0001 C CNN "MF part number"
-F 9 "Texas Instruments" H 8850 7150 60  0001 C CNN "Manufacturer"
-F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 8750 7050 60  0001 C CNN "Description"
-	1    8600 6950
-	1    0    0    1   
-$EndComp
-$Comp
-L SW-texas-op_amps:RC4560 U?
-U 1 1 580B3637
-P 8550 8450
-F 0 "U?" H 8500 8350 60  0000 C CNN
-F 1 "RC4560" H 8600 8450 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 8600 8450 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 8600 8450 60  0001 C CNN
-F 4 "Any" H 8550 8450 60  0001 C CNN "Source"
-F 5 "No" H 8550 8450 60  0001 C CNN "Critical"
-F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 8600 8450 60  0001 C CNN "Characteristics"
-F 7 "PDIP (8)" H 9000 8850 60  0001 C CNN "Package ID"
-F 8 "RC4560" H 8900 8750 60  0001 C CNN "MF part number"
-F 9 "Texas Instruments" H 8800 8650 60  0001 C CNN "Manufacturer"
-F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 8700 8550 60  0001 C CNN "Description"
-	1    8550 8450
-	1    0    0    1   
-$EndComp
-$Comp
-L SW-texas-op_amps:RC4560 U?
-U 1 1 580B3FF5
-P 10150 7100
-F 0 "U?" H 10100 7000 60  0000 C CNN
-F 1 "RC4560" H 10200 7100 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 10200 7100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 10200 7100 60  0001 C CNN
-F 4 "Any" H 10150 7100 60  0001 C CNN "Source"
-F 5 "No" H 10150 7100 60  0001 C CNN "Critical"
-F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 10200 7100 60  0001 C CNN "Characteristics"
-F 7 "PDIP (8)" H 10600 7500 60  0001 C CNN "Package ID"
-F 8 "RC4560" H 10500 7400 60  0001 C CNN "MF part number"
-F 9 "Texas Instruments" H 10400 7300 60  0001 C CNN "Manufacturer"
-F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 10300 7200 60  0001 C CNN "Description"
-	1    10150 7100
-	1    0    0    1   
-$EndComp
-$Comp
-L SW-texas-op_amps:RC4560 U?
-U 1 1 580B5187
-P 10150 8600
-F 0 "U?" H 10100 8500 60  0000 C CNN
-F 1 "RC4560" H 10200 8600 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 10200 8600 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" H 10200 8600 60  0001 C CNN
-F 4 "Any" H 10150 8600 60  0001 C CNN "Source"
-F 5 "No" H 10150 8600 60  0001 C CNN "Critical"
-F 6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" H 10200 8600 60  0001 C CNN "Characteristics"
-F 7 "PDIP (8)" H 10600 9000 60  0001 C CNN "Package ID"
-F 8 "RC4560" H 10500 8900 60  0001 C CNN "MF part number"
-F 9 "Texas Instruments" H 10400 8800 60  0001 C CNN "Manufacturer"
-F 10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" H 10300 8700 60  0001 C CNN "Description"
-	1    10150 8600
-	1    0    0    1   
-$EndComp
-Text Notes 9100 7250 0    60   ~ 0
+Text Notes 650  13050 0    60   ~ 0
+Each input has jack, pot and summing resistor = 10k\n\n+-5VA = analog +5V, +5VD = digital +5V, (separate regulators)\nGNDREF = global ground
+Text Notes 6200 1700 0    60   ~ 0
 LEFT
-Text Notes 9150 8700 0    60   ~ 0
-RIGHT
-Wire Wire Line
-	8050 6800 8200 6800
 $Comp
-L Device:R_Small R?
+L Device:R_Small R16
 U 1 1 580B7023
-P 8650 6300
-F 0 "R?" V 8730 6300 50  0000 C CNN
-F 1 "10k" V 8650 6300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8580 6300 50  0001 C CNN
-F 3 "" H 8650 6300 50  0000 C CNN
-	1    8650 6300
+P 5850 1300
+F 0 "R16" V 5654 1300 50  0000 C CNN
+F 1 "10k" V 5745 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 5780 1300 50  0001 C CNN
+F 3 "" H 5850 1300 50  0000 C CNN
+	1    5850 1300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R17
 U 1 1 580B71E8
-P 10200 6450
-F 0 "R?" V 10280 6450 50  0000 C CNN
-F 1 "10k" V 10200 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10130 6450 50  0001 C CNN
-F 3 "" H 10200 6450 50  0000 C CNN
-	1    10200 6450
+P 6800 1300
+F 0 "R17" V 6550 1300 50  0000 C CNN
+F 1 "10k" V 6650 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6730 1300 50  0001 C CNN
+F 3 "" H 6800 1300 50  0000 C CNN
+	1    6800 1300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 580B7BF4
-P 8650 6100
-F 0 "C?" H 8675 6200 50  0000 L CNN
-F 1 "27pF" H 8675 6000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8688 5950 50  0001 C CNN
-F 3 "" H 8650 6100 50  0000 C CNN
-	1    8650 6100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 580B8B1D
-P 10200 6300
-F 0 "C?" H 10225 6400 50  0000 L CNN
-F 1 "47pF" H 10225 6200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10238 6150 50  0001 C CNN
-F 3 "" H 10200 6300 50  0000 C CNN
-	1    10200 6300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8200 6800 8200 6300
-Wire Wire Line
-	8200 6300 8500 6300
-Wire Wire Line
-	8500 6300 8500 6100
-Wire Wire Line
-	8800 6300 8800 6100
-Wire Wire Line
-	8800 6300 9200 6300
-Wire Wire Line
-	9200 6300 9200 6950
-$Comp
-L Device:R_Small R?
+L Device:R_Small R21
 U 1 1 580BA60C
-P 8600 7850
-F 0 "R?" V 8680 7850 50  0000 C CNN
-F 1 "10k" V 8600 7850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 7850 50  0001 C CNN
-F 3 "" H 8600 7850 50  0000 C CNN
-	1    8600 7850
+P 5850 2350
+F 0 "R21" V 5654 2350 50  0000 C CNN
+F 1 "10k" V 5745 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 5780 2350 50  0001 C CNN
+F 3 "" H 5850 2350 50  0000 C CNN
+	1    5850 2350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 580BA612
-P 8600 7700
-F 0 "C?" H 8625 7800 50  0000 L CNN
-F 1 "27pF" H 8625 7600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8638 7550 50  0001 C CNN
-F 3 "" H 8600 7700 50  0000 C CNN
-	1    8600 7700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8150 7850 8450 7850
-Wire Wire Line
-	8450 7850 8450 7700
-Wire Wire Line
-	8750 7850 8750 7700
-Wire Wire Line
-	8750 7850 9150 7850
-Wire Wire Line
-	8150 7850 8150 8300
-Wire Wire Line
-	9150 7850 9150 8450
-Wire Wire Line
-	10050 6300 10050 6450
-Wire Wire Line
-	10350 6300 10350 6450
-Wire Wire Line
-	10050 6450 9750 6450
-Wire Wire Line
-	9750 6450 9750 6950
-Wire Wire Line
-	10350 6450 10750 6450
-Wire Wire Line
-	10750 6450 10750 7100
-$Comp
-L Device:R_Small R?
+L Device:R_Small R22
 U 1 1 580BC069
-P 10200 7950
-F 0 "R?" V 10280 7950 50  0000 C CNN
-F 1 "10k" V 10200 7950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10130 7950 50  0001 C CNN
-F 3 "" H 10200 7950 50  0000 C CNN
-	1    10200 7950
+P 6800 2350
+F 0 "R22" V 6604 2350 50  0000 C CNN
+F 1 "10k" V 6695 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6730 2350 50  0001 C CNN
+F 3 "" H 6800 2350 50  0000 C CNN
+	1    6800 2350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 580BC06F
-P 10200 7750
-F 0 "C?" H 10225 7850 50  0000 L CNN
-F 1 "47pF" H 10225 7650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10238 7600 50  0001 C CNN
-F 3 "" H 10200 7750 50  0000 C CNN
-	1    10200 7750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10050 7750 10050 7950
-Wire Wire Line
-	10350 7750 10350 7950
-Wire Wire Line
-	10050 7950 9750 7950
-Wire Wire Line
-	10350 7950 10750 7950
-Wire Wire Line
-	9750 7950 9750 8450
-Wire Wire Line
-	10750 7950 10750 8600
-Wire Wire Line
-	9750 6950 9200 6950
-Wire Wire Line
-	9750 8450 9150 8450
-$Comp
-L SW-power:-12VA #PWR?
-U 1 1 580BCC5B
-P 8650 6600
-F 0 "#PWR?" H 8650 6450 50  0001 C CNN
-F 1 "-12VA" H 8650 6740 50  0000 C CNN
-F 2 "" H 8650 6600 50  0000 C CNN
-F 3 "" H 8650 6600 50  0000 C CNN
-	1    8650 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-power:-12VA #PWR?
-U 1 1 580BD87D
-P 8600 8100
-F 0 "#PWR?" H 8600 7950 50  0001 C CNN
-F 1 "-12VA" H 8600 8240 50  0000 C CNN
-F 2 "" H 8600 8100 50  0000 C CNN
-F 3 "" H 8600 8100 50  0000 C CNN
-	1    8600 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-power:-12VA #PWR?
-U 1 1 580BDA2F
-P 10200 8250
-F 0 "#PWR?" H 10200 8100 50  0001 C CNN
-F 1 "-12VA" H 10200 8390 50  0000 C CNN
-F 2 "" H 10200 8250 50  0000 C CNN
-F 3 "" H 10200 8250 50  0000 C CNN
-	1    10200 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW-power:-12VA #PWR?
-U 1 1 580BEB7A
-P 10200 6750
-F 0 "#PWR?" H 10200 6600 50  0001 C CNN
-F 1 "-12VA" H 10200 6890 50  0000 C CNN
-F 2 "" H 10200 6750 50  0000 C CNN
-F 3 "" H 10200 6750 50  0000 C CNN
-	1    10200 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12VA #PWR?
-U 1 1 580BF2C0
-P 8600 8800
-F 0 "#PWR?" H 8600 8650 50  0001 C CNN
-F 1 "+12VA" H 8600 8940 50  0000 C CNN
-F 2 "" H 8600 8800 50  0000 C CNN
-F 3 "" H 8600 8800 50  0000 C CNN
-	1    8600 8800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12VA #PWR?
-U 1 1 580BF479
-P 10200 8950
-F 0 "#PWR?" H 10200 8800 50  0001 C CNN
-F 1 "+12VA" H 10200 9090 50  0000 C CNN
-F 2 "" H 10200 8950 50  0000 C CNN
-F 3 "" H 10200 8950 50  0000 C CNN
-	1    10200 8950
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12VA #PWR?
-U 1 1 580BF62B
-P 10200 7450
-F 0 "#PWR?" H 10200 7300 50  0001 C CNN
-F 1 "+12VA" H 10200 7590 50  0000 C CNN
-F 2 "" H 10200 7450 50  0000 C CNN
-F 3 "" H 10200 7450 50  0000 C CNN
-	1    10200 7450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12VA #PWR?
-U 1 1 580BF7DD
-P 8650 7300
-F 0 "#PWR?" H 8650 7150 50  0001 C CNN
-F 1 "+12VA" H 8650 7440 50  0000 C CNN
-F 2 "" H 8650 7300 50  0000 C CNN
-F 3 "" H 8650 7300 50  0000 C CNN
-	1    8650 7300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 580C026A
-P 8200 7100
-F 0 "#PWR?" H 8200 6850 50  0001 C CNN
-F 1 "GNDREF" H 8200 6950 50  0000 C CNN
-F 2 "" H 8200 7100 50  0000 C CNN
-F 3 "" H 8200 7100 50  0000 C CNN
-	1    8200 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 580C067D
-P 8150 8600
-F 0 "#PWR?" H 8150 8350 50  0001 C CNN
-F 1 "GNDREF" H 8150 8450 50  0000 C CNN
-F 2 "" H 8150 8600 50  0000 C CNN
-F 3 "" H 8150 8600 50  0000 C CNN
-	1    8150 8600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 580C082C
-P 9750 8750
-F 0 "#PWR?" H 9750 8500 50  0001 C CNN
-F 1 "GNDREF" H 9750 8600 50  0000 C CNN
-F 2 "" H 9750 8750 50  0000 C CNN
-F 3 "" H 9750 8750 50  0000 C CNN
-	1    9750 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 580C09DB
-P 9750 7250
-F 0 "#PWR?" H 9750 7000 50  0001 C CNN
-F 1 "GNDREF" H 9750 7100 50  0000 C CNN
-F 2 "" H 9750 7250 50  0000 C CNN
-F 3 "" H 9750 7250 50  0000 C CNN
-	1    9750 7250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8150 8300 7950 8300
-$Comp
-L SW-con:JACK-TRS J?
-U 1 1 580C183E
-P 11900 7400
-F 0 "J?" H 11900 7300 60  0000 C CNN
-F 1 "JACK-TRS" H 11900 7400 60  0000 C CNN
-F 2 "SW-CUI-INC:SJ1-353XNG-3Pin" H 11900 7400 60  0001 C CNN
-F 3 "" H 11900 7400 60  0000 C CNN
-	1    11900 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R?
+L Device:R_Small R20
 U 1 1 580C1AD0
-P 11000 7450
-F 0 "R?" V 11080 7450 50  0000 C CNN
-F 1 "100R" V 11000 7450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10930 7450 50  0001 C CNN
-F 3 "" H 11000 7450 50  0000 C CNN
-	1    11000 7450
+P 7250 1650
+F 0 "R20" V 7054 1650 50  0000 C CNN
+F 1 "100R" V 7145 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7180 1650 50  0001 C CNN
+F 3 "" H 7250 1650 50  0000 C CNN
+	1    7250 1650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	11450 7450 11650 7450
-Wire Wire Line
-	11150 7450 11250 7450
-Wire Wire Line
-	10850 7450 10850 7100
-Wire Wire Line
-	10850 7100 10750 7100
 $Comp
-L Device:R_Small R?
+L Device:R_Small R23
 U 1 1 580C4B6A
-P 11000 7650
-F 0 "R?" V 11080 7650 50  0000 C CNN
-F 1 "100R" V 11000 7650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10930 7650 50  0001 C CNN
-F 3 "" H 11000 7650 50  0000 C CNN
-	1    11000 7650
+P 7250 2700
+F 0 "R23" V 7054 2700 50  0000 C CNN
+F 1 "100R" V 7145 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7180 2700 50  0001 C CNN
+F 3 "" H 7250 2700 50  0000 C CNN
+	1    7250 2700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	11150 7650 11250 7650
-Wire Wire Line
-	11450 7650 11650 7650
-Wire Wire Line
-	10850 7950 10850 7650
-Connection ~ 10750 7950
 $Comp
-L power:GNDREF #PWR?
-U 1 1 580C5655
-P 11650 7800
-F 0 "#PWR?" H 11650 7550 50  0001 C CNN
-F 1 "GNDREF" H 11650 7650 50  0000 C CNN
-F 2 "" H 11650 7800 50  0000 C CNN
-F 3 "" H 11650 7800 50  0000 C CNN
-	1    11650 7800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11650 7700 11650 7800
-$Comp
-L Device:CP_Small C?
-U 1 1 5813E56A
-P 11350 7450
-F 0 "C?" H 11360 7520 50  0000 L CNN
-F 1 "10uF" H 11360 7370 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 11350 7450 50  0001 C CNN
-F 3 "" H 11350 7450 50  0000 C CNN
-	1    11350 7450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP_Small C?
-U 1 1 5813FB41
-P 11350 7650
-F 0 "C?" H 11360 7720 50  0000 L CNN
-F 1 "10uF" H 11360 7570 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 11350 7650 50  0001 C CNN
-F 3 "" H 11350 7650 50  0000 C CNN
-	1    11350 7650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8050 5850 8050 6800
-Wire Wire Line
-	7950 5750 7950 8300
-Wire Wire Line
-	10750 7950 10850 7950
-$Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U4
 U 1 1 5AD20D3F
 P 2650 1250
-F 0 "U?" H 2650 1950 60  0000 C CNN
+F 0 "U4" H 2650 1950 60  0000 C CNN
 F 1 "DS1882" H 2650 1800 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 1350 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 1350 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 2350 60  0001 C CNN
 F 4 "0.00@0" H 2650 0   60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 150 60  0001 C CNN "Manufacturer"
@@ -480,10 +103,10 @@ $EndComp
 Wire Wire Line
 	3850 1000 3100 1000
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR030
 U 1 1 5AD20D4D
 P 3200 1700
-F 0 "#PWR?" H 3200 1450 50  0001 C CNN
+F 0 "#PWR030" H 3200 1450 50  0001 C CNN
 F 1 "GNDREF" H 3200 1550 50  0000 C CNN
 F 2 "" H 3200 1700 50  0000 C CNN
 F 3 "" H 3200 1700 50  0000 C CNN
@@ -491,10 +114,10 @@ F 3 "" H 3200 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR031
 U 1 1 5AD20D54
 P 2150 1800
-F 0 "#PWR?" H 2150 1550 50  0001 C CNN
+F 0 "#PWR031" H 2150 1550 50  0001 C CNN
 F 1 "GNDREF" H 2200 1600 50  0000 C CNN
 F 2 "" H 2150 1800 50  0000 C CNN
 F 3 "" H 2150 1800 50  0000 C CNN
@@ -502,10 +125,10 @@ F 3 "" H 2150 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR029
 U 1 1 5AD20D68
 P 3850 800
-F 0 "#PWR?" H 3850 650 50  0001 C CNN
+F 0 "#PWR029" H 3850 650 50  0001 C CNN
 F 1 "+5VA" H 3900 1000 50  0000 C CNN
 F 2 "" H 3850 800 50  0000 C CNN
 F 3 "" H 3850 800 50  0000 C CNN
@@ -513,100 +136,82 @@ F 3 "" H 3850 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR028
 U 1 1 5AD20D6E
 P 3400 800
-F 0 "#PWR?" H 3400 650 50  0001 C CNN
+F 0 "#PWR028" H 3400 650 50  0001 C CNN
 F 1 "+5VD" H 3300 850 50  0000 R CNN
 F 2 "" H 3400 800 50  0000 C CNN
 F 3 "" H 3400 800 50  0000 C CNN
 	1    3400 800 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5AD20D74
-P 1850 1950
-F 0 "#PWR?" H 1850 2050 50  0001 C CNN
-F 1 "-5V" H 1850 2150 50  0000 C CNN
-F 2 "" H 1850 1950 50  0000 C CNN
-F 3 "" H 1850 1950 50  0000 C CNN
-	1    1850 1950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 1500 3100 1500
 $Comp
-L Device:C_Small C?
+L Device:C_Small C26
 U 1 1 5AD20D87
 P 2000 1700
-F 0 "C?" V 1750 1700 50  0000 C CNN
+F 0 "C26" V 1750 1700 50  0000 C CNN
 F 1 "0u01F" V 1850 1700 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 1550 50  0001 C CNN
 F 3 "" H 2000 1700 50  0000 C CNN
 	1    2000 1700
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C14
 U 1 1 5AD20D8E
 P 3600 850
-F 0 "C?" V 3350 850 50  0000 C CNN
+F 0 "C14" V 3350 850 50  0000 C CNN
 F 1 "0u01F" V 3450 850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 700 50  0001 C CNN
 F 3 "" H 3600 850 50  0000 C CNN
 	1    3600 850 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C15
 U 1 1 5AD20D9B
 P 4100 850
-F 0 "C?" V 3850 850 50  0000 C CNN
+F 0 "C15" V 3850 850 50  0000 C CNN
 F 1 "0u01F" V 3950 850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 700 50  0001 C CNN
 F 3 "" H 4100 850 50  0000 C CNN
 	1    4100 850 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R18
 U 1 1 5AD20DAD
 P 1300 1400
-F 0 "R?" V 1050 1400 50  0000 C CNN
+F 0 "R18" V 1050 1400 50  0000 C CNN
 F 1 "10k" V 1150 1400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 1400 50  0001 C CNN
 F 3 "" H 1300 1400 50  0000 C CNN
 	1    1300 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R19
 U 1 1 5AD20DB6
 P 3850 1400
-F 0 "R?" V 3930 1400 50  0000 C CNN
+F 0 "R19" V 3930 1400 50  0000 C CNN
 F 1 "10k" V 3850 1400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 1400 50  0001 C CNN
 F 3 "" H 3850 1400 50  0000 C CNN
 	1    3850 1400
 	0    1    1    0   
 $EndComp
-Connection ~ 8150 8300
-Connection ~ 8200 6800
-Connection ~ 9150 8450
-Connection ~ 9200 6950
-Connection ~ 9750 6950
-Connection ~ 9750 8450
-Connection ~ 10750 7100
 Text Notes 2450 1800 0    50   ~ 0
 Channel 0
 Wire Wire Line
 	750  1600 1300 1600
 $Comp
-L Device:C_Small C?
+L Device:C_Small C24
 U 1 1 5AFD817A
 P 1400 1600
-F 0 "C?" V 1550 1600 50  0000 C CNN
+F 0 "C24" V 1550 1600 50  0000 C CNN
 F 1 "1uF" V 1650 1600 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 1450 50  0001 C CNN
 F 3 "" H 1400 1600 50  0000 C CNN
@@ -698,10 +303,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 1300 3200 1600
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 5B07B07F
 P 3400 1500
-F 0 "C?" V 3550 1500 50  0000 C CNN
+F 0 "C16" V 3550 1500 50  0000 C CNN
 F 1 "1uF" V 3650 1500 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 1350 50  0001 C CNN
 F 3 "" H 3400 1500 50  0000 C CNN
@@ -719,12 +324,12 @@ Wire Wire Line
 Wire Wire Line
 	1400 1400 2200 1400
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U6
 U 1 1 5B088986
 P 2650 2600
-F 0 "U?" H 2650 3300 60  0000 C CNN
+F 0 "U6" H 2650 3300 60  0000 C CNN
 F 1 "DS1882" H 2650 3150 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 2700 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 2700 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 3700 60  0001 C CNN
 F 4 "0.00@0" H 2650 1350 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 1500 60  0001 C CNN "Manufacturer"
@@ -737,10 +342,10 @@ $EndComp
 Wire Wire Line
 	3850 2350 3100 2350
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR037
 U 1 1 5B08898E
 P 3200 3050
-F 0 "#PWR?" H 3200 2800 50  0001 C CNN
+F 0 "#PWR037" H 3200 2800 50  0001 C CNN
 F 1 "GNDREF" H 3200 2900 50  0000 C CNN
 F 2 "" H 3200 3050 50  0000 C CNN
 F 3 "" H 3200 3050 50  0000 C CNN
@@ -748,10 +353,10 @@ F 3 "" H 3200 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR038
 U 1 1 5B088994
 P 2150 3150
-F 0 "#PWR?" H 2150 2900 50  0001 C CNN
+F 0 "#PWR038" H 2150 2900 50  0001 C CNN
 F 1 "GNDREF" H 2200 2950 50  0000 C CNN
 F 2 "" H 2150 3150 50  0000 C CNN
 F 3 "" H 2150 3150 50  0000 C CNN
@@ -759,10 +364,10 @@ F 3 "" H 2150 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR034
 U 1 1 5B08899A
 P 3850 2150
-F 0 "#PWR?" H 3850 2000 50  0001 C CNN
+F 0 "#PWR034" H 3850 2000 50  0001 C CNN
 F 1 "+5VA" H 3900 2350 50  0000 C CNN
 F 2 "" H 3850 2150 50  0000 C CNN
 F 3 "" H 3850 2150 50  0000 C CNN
@@ -770,95 +375,82 @@ F 3 "" H 3850 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR033
 U 1 1 5B0889A0
 P 3400 2150
-F 0 "#PWR?" H 3400 2000 50  0001 C CNN
+F 0 "#PWR033" H 3400 2000 50  0001 C CNN
 F 1 "+5VD" H 3300 2200 50  0000 R CNN
 F 2 "" H 3400 2150 50  0000 C CNN
 F 3 "" H 3400 2150 50  0000 C CNN
 	1    3400 2150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B0889A6
-P 1850 3300
-F 0 "#PWR?" H 1850 3400 50  0001 C CNN
-F 1 "-5V" H 1850 3500 50  0000 C CNN
-F 2 "" H 1850 3300 50  0000 C CNN
-F 3 "" H 1850 3300 50  0000 C CNN
-	1    1850 3300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 2850 3100 2850
 $Comp
-L Device:C_Small C?
+L Device:C_Small C32
 U 1 1 5B0889AD
 P 2000 3050
-F 0 "C?" V 1750 3050 50  0000 C CNN
+F 0 "C32" V 1750 3050 50  0000 C CNN
 F 1 "0u01F" V 1850 3050 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 2900 50  0001 C CNN
 F 3 "" H 2000 3050 50  0000 C CNN
 	1    2000 3050
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C27
 U 1 1 5B0889B4
 P 3600 2200
-F 0 "C?" V 3350 2200 50  0000 C CNN
+F 0 "C27" V 3350 2200 50  0000 C CNN
 F 1 "0u01F" V 3450 2200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 2050 50  0001 C CNN
 F 3 "" H 3600 2200 50  0000 C CNN
 	1    3600 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C28
 U 1 1 5B0889BB
 P 4100 2200
-F 0 "C?" V 3850 2200 50  0000 C CNN
+F 0 "C28" V 3850 2200 50  0000 C CNN
 F 1 "0u01F" V 3950 2200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 2050 50  0001 C CNN
 F 3 "" H 4100 2200 50  0000 C CNN
 	1    4100 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R24
 U 1 1 5B0889C2
 P 1300 2750
-F 0 "R?" V 1050 2750 50  0000 C CNN
+F 0 "R24" V 1050 2750 50  0000 C CNN
 F 1 "10k" V 1150 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 2750 50  0001 C CNN
 F 3 "" H 1300 2750 50  0000 C CNN
 	1    1300 2750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R25
 U 1 1 5B0889C9
 P 3850 2750
-F 0 "R?" V 3930 2750 50  0000 C CNN
+F 0 "R25" V 3930 2750 50  0000 C CNN
 F 1 "10k" V 3850 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 2750 50  0001 C CNN
 F 3 "" H 3850 2750 50  0000 C CNN
 	1    3850 2750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 2750 3950 2750
 Text Notes 2450 3150 0    50   ~ 0
 Channel 1
 Wire Wire Line
 	750  2950 1300 2950
 $Comp
-L Device:C_Small C?
+L Device:C_Small C31
 U 1 1 5B0889D7
 P 1400 2950
-F 0 "C?" V 1550 2950 50  0000 C CNN
+F 0 "C31" V 1550 2950 50  0000 C CNN
 F 1 "1uF" V 1650 2950 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 2800 50  0001 C CNN
 F 3 "" H 1400 2950 50  0000 C CNN
@@ -939,10 +531,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 2650 3200 2950
 $Comp
-L Device:C_Small C?
+L Device:C_Small C30
 U 1 1 5B088A0F
 P 3400 2850
-F 0 "C?" V 3550 2850 50  0000 C CNN
+F 0 "C30" V 3550 2850 50  0000 C CNN
 F 1 "1uF" V 3650 2850 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 2700 50  0001 C CNN
 F 3 "" H 3400 2850 50  0000 C CNN
@@ -962,12 +554,12 @@ Wire Wire Line
 Wire Notes Line
 	2900 3050 2900 3500
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U7
 U 1 1 5B09988E
 P 2650 3950
-F 0 "U?" H 2650 4650 60  0000 C CNN
+F 0 "U7" H 2650 4650 60  0000 C CNN
 F 1 "DS1882" H 2650 4500 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 4050 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 4050 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 5050 60  0001 C CNN
 F 4 "0.00@0" H 2650 2700 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 2850 60  0001 C CNN "Manufacturer"
@@ -980,10 +572,10 @@ $EndComp
 Wire Wire Line
 	3850 3700 3100 3700
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR042
 U 1 1 5B099896
 P 3200 4400
-F 0 "#PWR?" H 3200 4150 50  0001 C CNN
+F 0 "#PWR042" H 3200 4150 50  0001 C CNN
 F 1 "GNDREF" H 3200 4250 50  0000 C CNN
 F 2 "" H 3200 4400 50  0000 C CNN
 F 3 "" H 3200 4400 50  0000 C CNN
@@ -991,10 +583,10 @@ F 3 "" H 3200 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR043
 U 1 1 5B09989C
 P 2150 4500
-F 0 "#PWR?" H 2150 4250 50  0001 C CNN
+F 0 "#PWR043" H 2150 4250 50  0001 C CNN
 F 1 "GNDREF" H 2200 4300 50  0000 C CNN
 F 2 "" H 2150 4500 50  0000 C CNN
 F 3 "" H 2150 4500 50  0000 C CNN
@@ -1002,10 +594,10 @@ F 3 "" H 2150 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR040
 U 1 1 5B0998A2
 P 3850 3500
-F 0 "#PWR?" H 3850 3350 50  0001 C CNN
+F 0 "#PWR040" H 3850 3350 50  0001 C CNN
 F 1 "+5VA" H 3900 3700 50  0000 C CNN
 F 2 "" H 3850 3500 50  0000 C CNN
 F 3 "" H 3850 3500 50  0000 C CNN
@@ -1013,95 +605,82 @@ F 3 "" H 3850 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR039
 U 1 1 5B0998A8
 P 3400 3500
-F 0 "#PWR?" H 3400 3350 50  0001 C CNN
+F 0 "#PWR039" H 3400 3350 50  0001 C CNN
 F 1 "+5VD" H 3300 3550 50  0000 R CNN
 F 2 "" H 3400 3500 50  0000 C CNN
 F 3 "" H 3400 3500 50  0000 C CNN
 	1    3400 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B0998AE
-P 1850 4650
-F 0 "#PWR?" H 1850 4750 50  0001 C CNN
-F 1 "-5V" H 1850 4850 50  0000 C CNN
-F 2 "" H 1850 4650 50  0000 C CNN
-F 3 "" H 1850 4650 50  0000 C CNN
-	1    1850 4650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 4200 3100 4200
 $Comp
-L Device:C_Small C?
+L Device:C_Small C37
 U 1 1 5B0998B5
 P 2000 4400
-F 0 "C?" V 1750 4400 50  0000 C CNN
+F 0 "C37" V 1750 4400 50  0000 C CNN
 F 1 "0u01F" V 1850 4400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 4250 50  0001 C CNN
 F 3 "" H 2000 4400 50  0000 C CNN
 	1    2000 4400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C33
 U 1 1 5B0998BC
 P 3600 3550
-F 0 "C?" V 3350 3550 50  0000 C CNN
+F 0 "C33" V 3350 3550 50  0000 C CNN
 F 1 "0u01F" V 3450 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 3400 50  0001 C CNN
 F 3 "" H 3600 3550 50  0000 C CNN
 	1    3600 3550
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C34
 U 1 1 5B0998C3
 P 4100 3550
-F 0 "C?" V 3850 3550 50  0000 C CNN
+F 0 "C34" V 3850 3550 50  0000 C CNN
 F 1 "0u01F" V 3950 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 3400 50  0001 C CNN
 F 3 "" H 4100 3550 50  0000 C CNN
 	1    4100 3550
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R26
 U 1 1 5B0998CA
 P 1300 4100
-F 0 "R?" V 1050 4100 50  0000 C CNN
+F 0 "R26" V 1050 4100 50  0000 C CNN
 F 1 "10k" V 1150 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 4100 50  0001 C CNN
 F 3 "" H 1300 4100 50  0000 C CNN
 	1    1300 4100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R27
 U 1 1 5B0998D1
 P 3850 4100
-F 0 "R?" V 3930 4100 50  0000 C CNN
+F 0 "R27" V 3930 4100 50  0000 C CNN
 F 1 "10k" V 3850 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 4100 50  0001 C CNN
 F 3 "" H 3850 4100 50  0000 C CNN
 	1    3850 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 4100 3950 4100
 Text Notes 2450 4500 0    50   ~ 0
 Channel 2
 Wire Wire Line
 	750  4300 1300 4300
 $Comp
-L Device:C_Small C?
+L Device:C_Small C36
 U 1 1 5B0998DF
 P 1400 4300
-F 0 "C?" V 1550 4300 50  0000 C CNN
+F 0 "C36" V 1550 4300 50  0000 C CNN
 F 1 "1uF" V 1650 4300 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 4150 50  0001 C CNN
 F 3 "" H 1400 4300 50  0000 C CNN
@@ -1180,10 +759,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 4000 3200 4300
 $Comp
-L Device:C_Small C?
+L Device:C_Small C35
 U 1 1 5B099917
 P 3400 4200
-F 0 "C?" V 3550 4200 50  0000 C CNN
+F 0 "C35" V 3550 4200 50  0000 C CNN
 F 1 "1uF" V 3650 4200 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 4050 50  0001 C CNN
 F 3 "" H 3400 4200 50  0000 C CNN
@@ -1203,12 +782,12 @@ Wire Wire Line
 Wire Notes Line
 	2900 4400 2900 4850
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U10
 U 1 1 5B0A303E
 P 2650 5300
-F 0 "U?" H 2650 6000 60  0000 C CNN
+F 0 "U10" H 2650 6000 60  0000 C CNN
 F 1 "DS1882" H 2650 5850 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 5400 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 5400 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 6400 60  0001 C CNN
 F 4 "0.00@0" H 2650 4050 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 4200 60  0001 C CNN "Manufacturer"
@@ -1221,10 +800,10 @@ $EndComp
 Wire Wire Line
 	3850 5050 3100 5050
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR047
 U 1 1 5B0A3046
 P 3200 5750
-F 0 "#PWR?" H 3200 5500 50  0001 C CNN
+F 0 "#PWR047" H 3200 5500 50  0001 C CNN
 F 1 "GNDREF" H 3200 5600 50  0000 C CNN
 F 2 "" H 3200 5750 50  0000 C CNN
 F 3 "" H 3200 5750 50  0000 C CNN
@@ -1232,10 +811,10 @@ F 3 "" H 3200 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR048
 U 1 1 5B0A304C
 P 2150 5850
-F 0 "#PWR?" H 2150 5600 50  0001 C CNN
+F 0 "#PWR048" H 2150 5600 50  0001 C CNN
 F 1 "GNDREF" H 2200 5650 50  0000 C CNN
 F 2 "" H 2150 5850 50  0000 C CNN
 F 3 "" H 2150 5850 50  0000 C CNN
@@ -1243,10 +822,10 @@ F 3 "" H 2150 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR045
 U 1 1 5B0A3052
 P 3850 4850
-F 0 "#PWR?" H 3850 4700 50  0001 C CNN
+F 0 "#PWR045" H 3850 4700 50  0001 C CNN
 F 1 "+5VA" H 3900 5050 50  0000 C CNN
 F 2 "" H 3850 4850 50  0000 C CNN
 F 3 "" H 3850 4850 50  0000 C CNN
@@ -1254,95 +833,82 @@ F 3 "" H 3850 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR044
 U 1 1 5B0A3058
 P 3400 4850
-F 0 "#PWR?" H 3400 4700 50  0001 C CNN
+F 0 "#PWR044" H 3400 4700 50  0001 C CNN
 F 1 "+5VD" H 3300 4900 50  0000 R CNN
 F 2 "" H 3400 4850 50  0000 C CNN
 F 3 "" H 3400 4850 50  0000 C CNN
 	1    3400 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B0A305E
-P 1850 6000
-F 0 "#PWR?" H 1850 6100 50  0001 C CNN
-F 1 "-5V" H 1850 6200 50  0000 C CNN
-F 2 "" H 1850 6000 50  0000 C CNN
-F 3 "" H 1850 6000 50  0000 C CNN
-	1    1850 6000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 5550 3100 5550
 $Comp
-L Device:C_Small C?
+L Device:C_Small C42
 U 1 1 5B0A3065
 P 2000 5750
-F 0 "C?" V 1750 5750 50  0000 C CNN
+F 0 "C42" V 1750 5750 50  0000 C CNN
 F 1 "0u01F" V 1850 5750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 5600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 5600 50  0001 C CNN
 F 3 "" H 2000 5750 50  0000 C CNN
 	1    2000 5750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C38
 U 1 1 5B0A306C
 P 3600 4900
-F 0 "C?" V 3350 4900 50  0000 C CNN
+F 0 "C38" V 3350 4900 50  0000 C CNN
 F 1 "0u01F" V 3450 4900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 4750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 4750 50  0001 C CNN
 F 3 "" H 3600 4900 50  0000 C CNN
 	1    3600 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C39
 U 1 1 5B0A3073
 P 4100 4900
-F 0 "C?" V 3850 4900 50  0000 C CNN
+F 0 "C39" V 3850 4900 50  0000 C CNN
 F 1 "0u01F" V 3950 4900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 4750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 4750 50  0001 C CNN
 F 3 "" H 4100 4900 50  0000 C CNN
 	1    4100 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R28
 U 1 1 5B0A307A
 P 1300 5450
-F 0 "R?" V 1050 5450 50  0000 C CNN
+F 0 "R28" V 1050 5450 50  0000 C CNN
 F 1 "10k" V 1150 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 5450 50  0001 C CNN
 F 3 "" H 1300 5450 50  0000 C CNN
 	1    1300 5450
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R29
 U 1 1 5B0A3081
 P 3850 5450
-F 0 "R?" V 3930 5450 50  0000 C CNN
+F 0 "R29" V 3930 5450 50  0000 C CNN
 F 1 "10k" V 3850 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 5450 50  0001 C CNN
 F 3 "" H 3850 5450 50  0000 C CNN
 	1    3850 5450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 5450 3950 5450
 Text Notes 2450 5850 0    50   ~ 0
 Channel 3
 Wire Wire Line
 	750  5650 1300 5650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C41
 U 1 1 5B0A308F
 P 1400 5650
-F 0 "C?" V 1550 5650 50  0000 C CNN
+F 0 "C41" V 1550 5650 50  0000 C CNN
 F 1 "1uF" V 1650 5650 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 5500 50  0001 C CNN
 F 3 "" H 1400 5650 50  0000 C CNN
@@ -1417,10 +983,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 5350 3200 5650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C40
 U 1 1 5B0A30C7
 P 3400 5550
-F 0 "C?" V 3550 5550 50  0000 C CNN
+F 0 "C40" V 3550 5550 50  0000 C CNN
 F 1 "1uF" V 3650 5550 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 5400 50  0001 C CNN
 F 3 "" H 3400 5550 50  0000 C CNN
@@ -1440,12 +1006,12 @@ Wire Wire Line
 Wire Notes Line
 	2900 5750 2900 6200
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U11
 U 1 1 5B0B17DB
 P 2650 6650
-F 0 "U?" H 2650 7350 60  0000 C CNN
+F 0 "U11" H 2650 7350 60  0000 C CNN
 F 1 "DS1882" H 2650 7200 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 6750 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 6750 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 7750 60  0001 C CNN
 F 4 "0.00@0" H 2650 5400 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 5550 60  0001 C CNN "Manufacturer"
@@ -1458,10 +1024,10 @@ $EndComp
 Wire Wire Line
 	3850 6400 3100 6400
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR052
 U 1 1 5B0B17E3
 P 3200 7100
-F 0 "#PWR?" H 3200 6850 50  0001 C CNN
+F 0 "#PWR052" H 3200 6850 50  0001 C CNN
 F 1 "GNDREF" H 3200 6950 50  0000 C CNN
 F 2 "" H 3200 7100 50  0000 C CNN
 F 3 "" H 3200 7100 50  0000 C CNN
@@ -1469,10 +1035,10 @@ F 3 "" H 3200 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR053
 U 1 1 5B0B17E9
 P 2150 7200
-F 0 "#PWR?" H 2150 6950 50  0001 C CNN
+F 0 "#PWR053" H 2150 6950 50  0001 C CNN
 F 1 "GNDREF" H 2200 7000 50  0000 C CNN
 F 2 "" H 2150 7200 50  0000 C CNN
 F 3 "" H 2150 7200 50  0000 C CNN
@@ -1480,10 +1046,10 @@ F 3 "" H 2150 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR050
 U 1 1 5B0B17EF
 P 3850 6200
-F 0 "#PWR?" H 3850 6050 50  0001 C CNN
+F 0 "#PWR050" H 3850 6050 50  0001 C CNN
 F 1 "+5VA" H 3900 6400 50  0000 C CNN
 F 2 "" H 3850 6200 50  0000 C CNN
 F 3 "" H 3850 6200 50  0000 C CNN
@@ -1491,95 +1057,82 @@ F 3 "" H 3850 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR049
 U 1 1 5B0B17F5
 P 3400 6200
-F 0 "#PWR?" H 3400 6050 50  0001 C CNN
+F 0 "#PWR049" H 3400 6050 50  0001 C CNN
 F 1 "+5VD" H 3300 6250 50  0000 R CNN
 F 2 "" H 3400 6200 50  0000 C CNN
 F 3 "" H 3400 6200 50  0000 C CNN
 	1    3400 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B0B17FB
-P 1850 7350
-F 0 "#PWR?" H 1850 7450 50  0001 C CNN
-F 1 "-5V" H 1850 7550 50  0000 C CNN
-F 2 "" H 1850 7350 50  0000 C CNN
-F 3 "" H 1850 7350 50  0000 C CNN
-	1    1850 7350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 6900 3100 6900
 $Comp
-L Device:C_Small C?
+L Device:C_Small C47
 U 1 1 5B0B1802
 P 2000 7100
-F 0 "C?" V 1750 7100 50  0000 C CNN
+F 0 "C47" V 1750 7100 50  0000 C CNN
 F 1 "0u01F" V 1850 7100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 6950 50  0001 C CNN
 F 3 "" H 2000 7100 50  0000 C CNN
 	1    2000 7100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C43
 U 1 1 5B0B1809
 P 3600 6250
-F 0 "C?" V 3350 6250 50  0000 C CNN
+F 0 "C43" V 3350 6250 50  0000 C CNN
 F 1 "0u01F" V 3450 6250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 6100 50  0001 C CNN
 F 3 "" H 3600 6250 50  0000 C CNN
 	1    3600 6250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C44
 U 1 1 5B0B1810
 P 4100 6250
-F 0 "C?" V 3850 6250 50  0000 C CNN
+F 0 "C44" V 3850 6250 50  0000 C CNN
 F 1 "0u01F" V 3950 6250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 6100 50  0001 C CNN
 F 3 "" H 4100 6250 50  0000 C CNN
 	1    4100 6250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R30
 U 1 1 5B0B1817
 P 1300 6800
-F 0 "R?" V 1050 6800 50  0000 C CNN
+F 0 "R30" V 1050 6800 50  0000 C CNN
 F 1 "10k" V 1150 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 6800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 6800 50  0001 C CNN
 F 3 "" H 1300 6800 50  0000 C CNN
 	1    1300 6800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R31
 U 1 1 5B0B181E
 P 3850 6800
-F 0 "R?" V 3930 6800 50  0000 C CNN
+F 0 "R31" V 3930 6800 50  0000 C CNN
 F 1 "10k" V 3850 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 6800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 6800 50  0001 C CNN
 F 3 "" H 3850 6800 50  0000 C CNN
 	1    3850 6800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 6800 3950 6800
 Text Notes 2450 7200 0    50   ~ 0
 Channel 4
 Wire Wire Line
 	750  7000 1300 7000
 $Comp
-L Device:C_Small C?
+L Device:C_Small C46
 U 1 1 5B0B182C
 P 1400 7000
-F 0 "C?" V 1550 7000 50  0000 C CNN
+F 0 "C46" V 1550 7000 50  0000 C CNN
 F 1 "1uF" V 1650 7000 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 6850 50  0001 C CNN
 F 3 "" H 1400 7000 50  0000 C CNN
@@ -1657,10 +1210,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 6700 3200 7000
 $Comp
-L Device:C_Small C?
+L Device:C_Small C45
 U 1 1 5B0B1864
 P 3400 6900
-F 0 "C?" V 3550 6900 50  0000 C CNN
+F 0 "C45" V 3550 6900 50  0000 C CNN
 F 1 "1uF" V 3650 6900 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 6750 50  0001 C CNN
 F 3 "" H 3400 6900 50  0000 C CNN
@@ -1680,12 +1233,12 @@ Wire Wire Line
 Wire Notes Line
 	2900 7100 2900 7550
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U12
 U 1 1 5B0C594B
 P 2650 8000
-F 0 "U?" H 2650 8700 60  0000 C CNN
+F 0 "U12" H 2650 8700 60  0000 C CNN
 F 1 "DS1882" H 2650 8550 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 8100 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 8100 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 9100 60  0001 C CNN
 F 4 "0.00@0" H 2650 6750 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 6900 60  0001 C CNN "Manufacturer"
@@ -1698,10 +1251,10 @@ $EndComp
 Wire Wire Line
 	3850 7750 3100 7750
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR057
 U 1 1 5B0C5953
 P 3200 8450
-F 0 "#PWR?" H 3200 8200 50  0001 C CNN
+F 0 "#PWR057" H 3200 8200 50  0001 C CNN
 F 1 "GNDREF" H 3200 8300 50  0000 C CNN
 F 2 "" H 3200 8450 50  0000 C CNN
 F 3 "" H 3200 8450 50  0000 C CNN
@@ -1709,10 +1262,10 @@ F 3 "" H 3200 8450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR058
 U 1 1 5B0C5959
 P 2150 8550
-F 0 "#PWR?" H 2150 8300 50  0001 C CNN
+F 0 "#PWR058" H 2150 8300 50  0001 C CNN
 F 1 "GNDREF" H 2200 8350 50  0000 C CNN
 F 2 "" H 2150 8550 50  0000 C CNN
 F 3 "" H 2150 8550 50  0000 C CNN
@@ -1720,10 +1273,10 @@ F 3 "" H 2150 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR055
 U 1 1 5B0C595F
 P 3850 7550
-F 0 "#PWR?" H 3850 7400 50  0001 C CNN
+F 0 "#PWR055" H 3850 7400 50  0001 C CNN
 F 1 "+5VA" H 3900 7750 50  0000 C CNN
 F 2 "" H 3850 7550 50  0000 C CNN
 F 3 "" H 3850 7550 50  0000 C CNN
@@ -1731,95 +1284,82 @@ F 3 "" H 3850 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR054
 U 1 1 5B0C5965
 P 3400 7550
-F 0 "#PWR?" H 3400 7400 50  0001 C CNN
+F 0 "#PWR054" H 3400 7400 50  0001 C CNN
 F 1 "+5VD" H 3300 7600 50  0000 R CNN
 F 2 "" H 3400 7550 50  0000 C CNN
 F 3 "" H 3400 7550 50  0000 C CNN
 	1    3400 7550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B0C596B
-P 1850 8700
-F 0 "#PWR?" H 1850 8800 50  0001 C CNN
-F 1 "-5V" H 1850 8900 50  0000 C CNN
-F 2 "" H 1850 8700 50  0000 C CNN
-F 3 "" H 1850 8700 50  0000 C CNN
-	1    1850 8700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 8250 3100 8250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C52
 U 1 1 5B0C5972
 P 2000 8450
-F 0 "C?" V 1750 8450 50  0000 C CNN
+F 0 "C52" V 1750 8450 50  0000 C CNN
 F 1 "0u01F" V 1850 8450 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 8300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 8300 50  0001 C CNN
 F 3 "" H 2000 8450 50  0000 C CNN
 	1    2000 8450
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C48
 U 1 1 5B0C5979
 P 3600 7600
-F 0 "C?" V 3350 7600 50  0000 C CNN
+F 0 "C48" V 3350 7600 50  0000 C CNN
 F 1 "0u01F" V 3450 7600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 7450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 7450 50  0001 C CNN
 F 3 "" H 3600 7600 50  0000 C CNN
 	1    3600 7600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C49
 U 1 1 5B0C5980
 P 4100 7600
-F 0 "C?" V 3850 7600 50  0000 C CNN
+F 0 "C49" V 3850 7600 50  0000 C CNN
 F 1 "0u01F" V 3950 7600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 7450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 7450 50  0001 C CNN
 F 3 "" H 4100 7600 50  0000 C CNN
 	1    4100 7600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R32
 U 1 1 5B0C5987
 P 1300 8150
-F 0 "R?" V 1050 8150 50  0000 C CNN
+F 0 "R32" V 1050 8150 50  0000 C CNN
 F 1 "10k" V 1150 8150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 8150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 8150 50  0001 C CNN
 F 3 "" H 1300 8150 50  0000 C CNN
 	1    1300 8150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R33
 U 1 1 5B0C598E
 P 3850 8150
-F 0 "R?" V 3930 8150 50  0000 C CNN
+F 0 "R33" V 3930 8150 50  0000 C CNN
 F 1 "10k" V 3850 8150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 8150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 8150 50  0001 C CNN
 F 3 "" H 3850 8150 50  0000 C CNN
 	1    3850 8150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 8150 3950 8150
 Text Notes 2450 8550 0    50   ~ 0
 Channel 5
 Wire Wire Line
 	750  8350 1300 8350
 $Comp
-L Device:C_Small C?
+L Device:C_Small C51
 U 1 1 5B0C599C
 P 1400 8350
-F 0 "C?" V 1550 8350 50  0000 C CNN
+F 0 "C51" V 1550 8350 50  0000 C CNN
 F 1 "1uF" V 1650 8350 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 8200 50  0001 C CNN
 F 3 "" H 1400 8350 50  0000 C CNN
@@ -1889,10 +1429,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 8050 3200 8350
 $Comp
-L Device:C_Small C?
+L Device:C_Small C50
 U 1 1 5B0C59D4
 P 3400 8250
-F 0 "C?" V 3550 8250 50  0000 C CNN
+F 0 "C50" V 3550 8250 50  0000 C CNN
 F 1 "1uF" V 3650 8250 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 8100 50  0001 C CNN
 F 3 "" H 3400 8250 50  0000 C CNN
@@ -1912,12 +1452,12 @@ Wire Wire Line
 Wire Notes Line
 	2900 8450 2900 8900
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U13
 U 1 1 5B0E0DF0
 P 2650 9350
-F 0 "U?" H 2650 10050 60  0000 C CNN
+F 0 "U13" H 2650 10050 60  0000 C CNN
 F 1 "DS1882" H 2650 9900 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 9450 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 9450 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 10450 60  0001 C CNN
 F 4 "0.00@0" H 2650 8100 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 8250 60  0001 C CNN "Manufacturer"
@@ -1930,10 +1470,10 @@ $EndComp
 Wire Wire Line
 	3850 9100 3100 9100
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR063
 U 1 1 5B0E0DF8
 P 3200 9800
-F 0 "#PWR?" H 3200 9550 50  0001 C CNN
+F 0 "#PWR063" H 3200 9550 50  0001 C CNN
 F 1 "GNDREF" H 3200 9650 50  0000 C CNN
 F 2 "" H 3200 9800 50  0000 C CNN
 F 3 "" H 3200 9800 50  0000 C CNN
@@ -1941,10 +1481,10 @@ F 3 "" H 3200 9800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR064
 U 1 1 5B0E0DFE
 P 2150 9900
-F 0 "#PWR?" H 2150 9650 50  0001 C CNN
+F 0 "#PWR064" H 2150 9650 50  0001 C CNN
 F 1 "GNDREF" H 2200 9700 50  0000 C CNN
 F 2 "" H 2150 9900 50  0000 C CNN
 F 3 "" H 2150 9900 50  0000 C CNN
@@ -1952,10 +1492,10 @@ F 3 "" H 2150 9900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR060
 U 1 1 5B0E0E04
 P 3850 8900
-F 0 "#PWR?" H 3850 8750 50  0001 C CNN
+F 0 "#PWR060" H 3850 8750 50  0001 C CNN
 F 1 "+5VA" H 3900 9100 50  0000 C CNN
 F 2 "" H 3850 8900 50  0000 C CNN
 F 3 "" H 3850 8900 50  0000 C CNN
@@ -1963,95 +1503,82 @@ F 3 "" H 3850 8900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR059
 U 1 1 5B0E0E0A
 P 3400 8900
-F 0 "#PWR?" H 3400 8750 50  0001 C CNN
+F 0 "#PWR059" H 3400 8750 50  0001 C CNN
 F 1 "+5VD" H 3300 8950 50  0000 R CNN
 F 2 "" H 3400 8900 50  0000 C CNN
 F 3 "" H 3400 8900 50  0000 C CNN
 	1    3400 8900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B0E0E10
-P 1850 10050
-F 0 "#PWR?" H 1850 10150 50  0001 C CNN
-F 1 "-5V" H 1850 10250 50  0000 C CNN
-F 2 "" H 1850 10050 50  0000 C CNN
-F 3 "" H 1850 10050 50  0000 C CNN
-	1    1850 10050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 9600 3100 9600
 $Comp
-L Device:C_Small C?
+L Device:C_Small C57
 U 1 1 5B0E0E17
 P 2000 9800
-F 0 "C?" V 1750 9800 50  0000 C CNN
+F 0 "C57" V 1750 9800 50  0000 C CNN
 F 1 "0u01F" V 1850 9800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 9650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 9650 50  0001 C CNN
 F 3 "" H 2000 9800 50  0000 C CNN
 	1    2000 9800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C53
 U 1 1 5B0E0E1E
 P 3600 8950
-F 0 "C?" V 3350 8950 50  0000 C CNN
+F 0 "C53" V 3350 8950 50  0000 C CNN
 F 1 "0u01F" V 3450 8950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 8800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 8800 50  0001 C CNN
 F 3 "" H 3600 8950 50  0000 C CNN
 	1    3600 8950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C54
 U 1 1 5B0E0E25
 P 4100 8950
-F 0 "C?" V 3850 8950 50  0000 C CNN
+F 0 "C54" V 3850 8950 50  0000 C CNN
 F 1 "0u01F" V 3950 8950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 8800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 8800 50  0001 C CNN
 F 3 "" H 4100 8950 50  0000 C CNN
 	1    4100 8950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R34
 U 1 1 5B0E0E2C
 P 1300 9500
-F 0 "R?" V 1050 9500 50  0000 C CNN
+F 0 "R34" V 1050 9500 50  0000 C CNN
 F 1 "10k" V 1150 9500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 9500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 9500 50  0001 C CNN
 F 3 "" H 1300 9500 50  0000 C CNN
 	1    1300 9500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R35
 U 1 1 5B0E0E33
 P 3850 9500
-F 0 "R?" V 3930 9500 50  0000 C CNN
+F 0 "R35" V 3930 9500 50  0000 C CNN
 F 1 "10k" V 3850 9500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 9500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 9500 50  0001 C CNN
 F 3 "" H 3850 9500 50  0000 C CNN
 	1    3850 9500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 9500 3950 9500
 Text Notes 2450 9900 0    50   ~ 0
 Channel 6
 Wire Wire Line
 	750  9700 1300 9700
 $Comp
-L Device:C_Small C?
+L Device:C_Small C56
 U 1 1 5B0E0E41
 P 1400 9700
-F 0 "C?" V 1550 9700 50  0000 C CNN
+F 0 "C56" V 1550 9700 50  0000 C CNN
 F 1 "1uF" V 1650 9700 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 9550 50  0001 C CNN
 F 3 "" H 1400 9700 50  0000 C CNN
@@ -2124,10 +1651,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 9400 3200 9700
 $Comp
-L Device:C_Small C?
+L Device:C_Small C55
 U 1 1 5B0E0E79
 P 3400 9600
-F 0 "C?" V 3550 9600 50  0000 C CNN
+F 0 "C55" V 3550 9600 50  0000 C CNN
 F 1 "1uF" V 3650 9600 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 9450 50  0001 C CNN
 F 3 "" H 3400 9600 50  0000 C CNN
@@ -2149,12 +1676,12 @@ L_MIX_BUS
 Wire Notes Line
 	2900 9800 2900 10250
 $Comp
-L SW-dallas-semi-maxim:DS1882 U?
+L SW-dallas-semi-maxim:DS1882 U14
 U 1 1 5B103A77
 P 2650 10700
-F 0 "U?" H 2650 11400 60  0000 C CNN
+F 0 "U14" H 2650 11400 60  0000 C CNN
 F 1 "DS1882" H 2650 11250 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2550 10800 60  0001 C CNN
+F 2 "Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm" H 2550 10800 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1882.pdf" H 2800 11800 60  0001 C CNN
 F 4 "0.00@0" H 2650 9450 60  0001 C CNN "Pricing"
 F 5 "Dallas Semiconductor / Maxim Integrated" H 2650 9600 60  0001 C CNN "Manufacturer"
@@ -2167,10 +1694,10 @@ $EndComp
 Wire Wire Line
 	3850 10450 3100 10450
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR068
 U 1 1 5B103A7F
 P 3200 11150
-F 0 "#PWR?" H 3200 10900 50  0001 C CNN
+F 0 "#PWR068" H 3200 10900 50  0001 C CNN
 F 1 "GNDREF" H 3200 11000 50  0000 C CNN
 F 2 "" H 3200 11150 50  0000 C CNN
 F 3 "" H 3200 11150 50  0000 C CNN
@@ -2178,10 +1705,10 @@ F 3 "" H 3200 11150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR069
 U 1 1 5B103A85
 P 2150 11250
-F 0 "#PWR?" H 2150 11000 50  0001 C CNN
+F 0 "#PWR069" H 2150 11000 50  0001 C CNN
 F 1 "GNDREF" H 2200 11050 50  0000 C CNN
 F 2 "" H 2150 11250 50  0000 C CNN
 F 3 "" H 2150 11250 50  0000 C CNN
@@ -2189,10 +1716,10 @@ F 3 "" H 2150 11250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VA #PWR?
+L power:+5VA #PWR066
 U 1 1 5B103A8B
 P 3850 10250
-F 0 "#PWR?" H 3850 10100 50  0001 C CNN
+F 0 "#PWR066" H 3850 10100 50  0001 C CNN
 F 1 "+5VA" H 3900 10450 50  0000 C CNN
 F 2 "" H 3850 10250 50  0000 C CNN
 F 3 "" H 3850 10250 50  0000 C CNN
@@ -2200,95 +1727,82 @@ F 3 "" H 3850 10250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR065
 U 1 1 5B103A91
 P 3400 10250
-F 0 "#PWR?" H 3400 10100 50  0001 C CNN
+F 0 "#PWR065" H 3400 10100 50  0001 C CNN
 F 1 "+5VD" H 3300 10300 50  0000 R CNN
 F 2 "" H 3400 10250 50  0000 C CNN
 F 3 "" H 3400 10250 50  0000 C CNN
 	1    3400 10250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5B103A97
-P 1850 11400
-F 0 "#PWR?" H 1850 11500 50  0001 C CNN
-F 1 "-5V" H 1850 11600 50  0000 C CNN
-F 2 "" H 1850 11400 50  0000 C CNN
-F 3 "" H 1850 11400 50  0000 C CNN
-	1    1850 11400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3300 10950 3100 10950
 $Comp
-L Device:C_Small C?
+L Device:C_Small C62
 U 1 1 5B103A9E
 P 2000 11150
-F 0 "C?" V 1750 11150 50  0000 C CNN
+F 0 "C62" V 1750 11150 50  0000 C CNN
 F 1 "0u01F" V 1850 11150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2038 11000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 2038 11000 50  0001 C CNN
 F 3 "" H 2000 11150 50  0000 C CNN
 	1    2000 11150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C58
 U 1 1 5B103AA5
 P 3600 10300
-F 0 "C?" V 3350 10300 50  0000 C CNN
+F 0 "C58" V 3350 10300 50  0000 C CNN
 F 1 "0u01F" V 3450 10300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 10150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 3638 10150 50  0001 C CNN
 F 3 "" H 3600 10300 50  0000 C CNN
 	1    3600 10300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C59
 U 1 1 5B103AAC
 P 4100 10300
-F 0 "C?" V 3850 10300 50  0000 C CNN
+F 0 "C59" V 3850 10300 50  0000 C CNN
 F 1 "0u01F" V 3950 10300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 10150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 4138 10150 50  0001 C CNN
 F 3 "" H 4100 10300 50  0000 C CNN
 	1    4100 10300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R36
 U 1 1 5B103AB3
 P 1300 10850
-F 0 "R?" V 1050 10850 50  0000 C CNN
+F 0 "R36" V 1050 10850 50  0000 C CNN
 F 1 "10k" V 1150 10850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 10850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1230 10850 50  0001 C CNN
 F 3 "" H 1300 10850 50  0000 C CNN
 	1    1300 10850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R37
 U 1 1 5B103ABA
 P 3850 10850
-F 0 "R?" V 3930 10850 50  0000 C CNN
+F 0 "R37" V 3930 10850 50  0000 C CNN
 F 1 "10k" V 3850 10850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3780 10850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3780 10850 50  0001 C CNN
 F 3 "" H 3850 10850 50  0000 C CNN
 	1    3850 10850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 10850 3950 10850
 Text Notes 2450 11250 0    50   ~ 0
 Channel 7
 Wire Wire Line
 	750  11050 1300 11050
 $Comp
-L Device:C_Small C?
+L Device:C_Small C61
 U 1 1 5B103AC8
 P 1400 11050
-F 0 "C?" V 1550 11050 50  0000 C CNN
+F 0 "C61" V 1550 11050 50  0000 C CNN
 F 1 "1uF" V 1650 11050 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 1438 10900 50  0001 C CNN
 F 3 "" H 1400 11050 50  0000 C CNN
@@ -2356,10 +1870,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 10750 3200 11050
 $Comp
-L Device:C_Small C?
+L Device:C_Small C60
 U 1 1 5B103B00
 P 3400 10950
-F 0 "C?" V 3550 10950 50  0000 C CNN
+F 0 "C60" V 3550 10950 50  0000 C CNN
 F 1 "1uF" V 3650 10950 50  0000 C CNN
 F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 3438 10800 50  0001 C CNN
 F 3 "" H 3400 10950 50  0000 C CNN
@@ -2428,14 +1942,11 @@ Wire Wire Line
 Connection ~ 950  9500
 Wire Wire Line
 	950  9500 950  10850
-Connection ~ 950  10850
-Wire Wire Line
-	950  10850 950  12150
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR035
 U 1 1 5B1BB046
 P 2000 2200
-F 0 "#PWR?" H 2000 2050 50  0001 C CNN
+F 0 "#PWR035" H 2000 2050 50  0001 C CNN
 F 1 "+5VD" H 2150 2250 50  0000 C CNN
 F 2 "" H 2000 2200 50  0000 C CNN
 F 3 "" H 2000 2200 50  0000 C CNN
@@ -2449,10 +1960,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 2650 2000 2200
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR041
 U 1 1 5B274C36
 P 2000 3550
-F 0 "#PWR?" H 2000 3400 50  0001 C CNN
+F 0 "#PWR041" H 2000 3400 50  0001 C CNN
 F 1 "+5VD" H 2150 3600 50  0000 C CNN
 F 2 "" H 2000 3550 50  0000 C CNN
 F 3 "" H 2000 3550 50  0000 C CNN
@@ -2471,10 +1982,10 @@ Wire Wire Line
 	2150 5050 2150 5550
 Connection ~ 2150 5550
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR046
 U 1 1 5B32DCCA
 P 2000 4900
-F 0 "#PWR?" H 2000 4750 50  0001 C CNN
+F 0 "#PWR046" H 2000 4750 50  0001 C CNN
 F 1 "+5VD" H 2150 4950 50  0000 C CNN
 F 2 "" H 2000 4900 50  0000 C CNN
 F 3 "" H 2000 4900 50  0000 C CNN
@@ -2491,10 +2002,10 @@ Wire Wire Line
 	2000 5350 2000 5150
 Connection ~ 2000 5150
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR051
 U 1 1 5B38A4D4
 P 2000 6250
-F 0 "#PWR?" H 2000 6100 50  0001 C CNN
+F 0 "#PWR051" H 2000 6100 50  0001 C CNN
 F 1 "+5VD" H 2150 6300 50  0000 C CNN
 F 2 "" H 2000 6250 50  0000 C CNN
 F 3 "" H 2000 6250 50  0000 C CNN
@@ -2515,10 +2026,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 7650 2150 7850
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR056
 U 1 1 5B414D20
 P 2000 7600
-F 0 "#PWR?" H 2000 7450 50  0001 C CNN
+F 0 "#PWR056" H 2000 7450 50  0001 C CNN
 F 1 "+5VD" H 2150 7650 50  0000 C CNN
 F 2 "" H 2000 7600 50  0000 C CNN
 F 3 "" H 2000 7600 50  0000 C CNN
@@ -2539,10 +2050,10 @@ Wire Wire Line
 Connection ~ 2150 7850
 Connection ~ 2150 8250
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR061
 U 1 1 5B4CEC7A
 P 2000 8950
-F 0 "#PWR?" H 2000 8800 50  0001 C CNN
+F 0 "#PWR061" H 2000 8800 50  0001 C CNN
 F 1 "+5VD" H 2150 9000 50  0000 C CNN
 F 2 "" H 2000 8950 50  0000 C CNN
 F 3 "" H 2000 8950 50  0000 C CNN
@@ -2564,10 +2075,10 @@ Wire Wire Line
 	2150 9000 2150 9400
 Connection ~ 2150 9400
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR067
 U 1 1 5B558DBE
 P 2000 10300
-F 0 "#PWR?" H 2000 10150 50  0001 C CNN
+F 0 "#PWR067" H 2000 10150 50  0001 C CNN
 F 1 "+5VD" H 2150 10350 50  0000 C CNN
 F 2 "" H 2000 10300 50  0000 C CNN
 F 3 "" H 2000 10300 50  0000 C CNN
@@ -2594,11 +2105,7 @@ Wire Wire Line
 	2150 10350 2200 10350
 Connection ~ 2150 10950
 Wire Wire Line
-	4300 1400 4300 11750
-Wire Wire Line
 	3950 1400 4300 1400
-Text Label 4300 11500 1    50   ~ 0
-R_MIX_BUS
 Text Label 4300 3350 1    50   ~ 0
 R_MIX_BUS
 Entry Wire Line
@@ -2633,8 +2140,6 @@ Text Label 3950 9600 0    50   ~ 0
 R-IN6
 Text Label 3950 10950 0    50   ~ 0
 R-IN7
-Wire Bus Line
-	4500 11450 4550 11450
 Text Label 4500 10350 1    50   ~ 0
 R-IN[0..7]
 Text Label 4500 3900 1    50   ~ 0
@@ -2646,8 +2151,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 10550 4850 10550
 Connection ~ 4850 10550
-Wire Wire Line
-	4850 10550 4850 11450
 Wire Wire Line
 	3100 9200 4850 9200
 Connection ~ 4850 9200
@@ -2708,8 +2211,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 9300 4750 10650
 Wire Wire Line
-	4750 10650 4750 11450
-Wire Wire Line
 	3100 3900 4750 3900
 Wire Wire Line
 	3100 5250 4750 5250
@@ -2721,8 +2222,853 @@ Wire Wire Line
 	3100 9300 4750 9300
 Wire Wire Line
 	3100 10650 4750 10650
+$Comp
+L SW-Texas:OPA1604 U3
+U 2 1 5BA0AC45
+P 5750 1550
+F 0 "U3" H 5825 1250 60  0000 C CNN
+F 1 "OPA1604" H 5825 1150 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5750 2950 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6350 3450 60  0001 C CNN
+F 4 "0.00@0" H 5950 3650 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 6150 3350 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 6050 3250 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 5950 3150 60  0001 C CNN "Manufacturer"
+	2    5750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Texas:OPA1604 U3
+U 3 1 5BA0ADB5
+P 5750 2600
+F 0 "U3" H 5825 2350 60  0000 C CNN
+F 1 "OPA1604" H 5825 2250 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 5750 4000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 6350 4500 60  0001 C CNN
+F 4 "0.00@0" H 5950 4700 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 6150 4400 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 6050 4300 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 5950 4200 60  0001 C CNN "Manufacturer"
+	3    5750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Texas:OPA1604 U3
+U 4 1 5BA0AF22
+P 6700 2700
+F 0 "U3" H 6775 2419 60  0000 C CNN
+F 1 "OPA1604" H 6775 2313 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 6700 4100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 7300 4600 60  0001 C CNN
+F 4 "0.00@0" H 6900 4800 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 7100 4500 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 7000 4400 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 6900 4300 60  0001 C CNN "Manufacturer"
+	4    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-Texas:OPA1604 U3
+U 5 1 5BA0B09E
+P 6700 1650
+F 0 "U3" H 6775 1369 60  0000 C CNN
+F 1 "OPA1604" H 6775 1263 60  0000 C CNN
+F 2 "Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm" H 6700 3050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" H 7300 3550 60  0001 C CNN
+F 4 "0.00@0" H 6900 3750 60  0001 C CNN "Pricing"
+F 5 "SO-14, TSSOP14" H 7100 3450 60  0001 C CNN "Package ID"
+F 6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" H 7000 3350 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 6900 3250 60  0001 C CNN "Manufacturer"
+	5    6700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA01
+U 1 1 5BDE74A0
+P 1850 1950
+F 0 "#-5VA01" H 2600 1650 60  0001 C CNN
+F 1 "-5VA" H 1850 1800 60  0000 C CNN
+F 2 "" H 1850 1950 60  0001 C CNN
+F 3 "" H 1850 1950 60  0001 C CNN
+F 4 "0.00@0" H 1950 2400 60  0001 C CNN "Pricing"
+	1    1850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA02
+U 1 1 5BE1666C
+P 1850 3300
+F 0 "#-5VA02" H 2600 3000 60  0001 C CNN
+F 1 "-5VA" H 1850 3150 60  0000 C CNN
+F 2 "" H 1850 3300 60  0001 C CNN
+F 3 "" H 1850 3300 60  0001 C CNN
+F 4 "0.00@0" H 1950 3750 60  0001 C CNN "Pricing"
+	1    1850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA03
+U 1 1 5BE45827
+P 1850 4650
+F 0 "#-5VA03" H 2600 4350 60  0001 C CNN
+F 1 "-5VA" H 1850 4500 60  0000 C CNN
+F 2 "" H 1850 4650 60  0001 C CNN
+F 3 "" H 1850 4650 60  0001 C CNN
+F 4 "0.00@0" H 1950 5100 60  0001 C CNN "Pricing"
+	1    1850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA04
+U 1 1 5BE74C8A
+P 1850 6000
+F 0 "#-5VA04" H 2600 5700 60  0001 C CNN
+F 1 "-5VA" H 1850 5850 60  0000 C CNN
+F 2 "" H 1850 6000 60  0001 C CNN
+F 3 "" H 1850 6000 60  0001 C CNN
+F 4 "0.00@0" H 1950 6450 60  0001 C CNN "Pricing"
+	1    1850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA05
+U 1 1 5BEA3DF0
+P 1850 7350
+F 0 "#-5VA05" H 2600 7050 60  0001 C CNN
+F 1 "-5VA" H 1850 7200 60  0000 C CNN
+F 2 "" H 1850 7350 60  0001 C CNN
+F 3 "" H 1850 7350 60  0001 C CNN
+F 4 "0.00@0" H 1950 7800 60  0001 C CNN "Pricing"
+	1    1850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA06
+U 1 1 5BED3253
+P 1850 8700
+F 0 "#-5VA06" H 2600 8400 60  0001 C CNN
+F 1 "-5VA" H 1850 8550 60  0000 C CNN
+F 2 "" H 1850 8700 60  0001 C CNN
+F 3 "" H 1850 8700 60  0001 C CNN
+F 4 "0.00@0" H 1950 9150 60  0001 C CNN "Pricing"
+	1    1850 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA07
+U 1 1 5BF02919
+P 1850 10050
+F 0 "#-5VA07" H 2600 9750 60  0001 C CNN
+F 1 "-5VA" H 1850 9900 60  0000 C CNN
+F 2 "" H 1850 10050 60  0001 C CNN
+F 3 "" H 1850 10050 60  0001 C CNN
+F 4 "0.00@0" H 1950 10500 60  0001 C CNN "Pricing"
+	1    1850 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW-power:-5VA #-5VA08
+U 1 1 5BF02CCE
+P 1850 11400
+F 0 "#-5VA08" H 2600 11100 60  0001 C CNN
+F 1 "-5VA" H 1850 11250 60  0000 C CNN
+F 2 "" H 1850 11400 60  0001 C CNN
+F 3 "" H 1850 11400 60  0001 C CNN
+F 4 "0.00@0" H 1950 11850 60  0001 C CNN "Pricing"
+	1    1850 11400
+	1    0    0    -1  
+$EndComp
+Text HLabel 5050 11750 2    50   BiDi ~ 0
+5V_SDA
+Text HLabel 5050 11650 2    50   BiDi ~ 0
+5V_SCL
+Wire Wire Line
+	4850 11650 5050 11650
+Wire Wire Line
+	4850 10550 4850 11650
+Wire Wire Line
+	4750 11750 5050 11750
+Wire Wire Line
+	4750 10650 4750 11750
+$Comp
+L power:GNDREF #PWR036
+U 1 1 5C38B2C2
+P 6300 3000
+F 0 "#PWR036" H 6300 2750 50  0001 C CNN
+F 1 "GNDREF" H 6300 2850 50  0000 C CNN
+F 2 "" H 6300 3000 50  0000 C CNN
+F 3 "" H 6300 3000 50  0000 C CNN
+	1    6300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1450 5550 1300
+Wire Wire Line
+	5550 1300 5750 1300
+Wire Wire Line
+	5950 1300 6100 1300
+Wire Wire Line
+	6100 1300 6100 1550
+Wire Wire Line
+	6100 1550 6500 1550
+Connection ~ 6100 1550
+Wire Wire Line
+	6500 1550 6500 1300
+Wire Wire Line
+	6500 1300 6700 1300
+Connection ~ 6500 1550
+Wire Wire Line
+	6900 1300 7050 1300
+Wire Wire Line
+	7050 1300 7050 1650
+Wire Wire Line
+	5550 1650 5450 1650
+Wire Wire Line
+	5450 1650 5450 1800
+Wire Wire Line
+	5450 1800 6300 1800
+Wire Wire Line
+	6400 1800 6400 1750
+Wire Wire Line
+	6400 1750 6500 1750
+Wire Wire Line
+	5750 2350 5550 2350
+Wire Wire Line
+	5550 2350 5550 2500
+Wire Wire Line
+	5950 2350 6100 2350
+Wire Wire Line
+	6100 2350 6100 2600
+Wire Wire Line
+	6700 2350 6500 2350
+Wire Wire Line
+	6500 2350 6500 2600
+Wire Wire Line
+	6900 2350 7050 2350
+Wire Wire Line
+	7050 2350 7050 2700
+Wire Wire Line
+	5550 2700 5400 2700
+Wire Wire Line
+	5400 2700 5400 2900
+Wire Wire Line
+	5400 2900 6300 2900
+Wire Wire Line
+	6500 2900 6500 2800
+Wire Wire Line
+	6100 2600 6500 2600
+Connection ~ 6100 2600
+Connection ~ 6500 2600
+Wire Wire Line
+	6300 1800 6300 2150
+Connection ~ 6300 1800
+Wire Wire Line
+	6300 1800 6400 1800
+Connection ~ 6300 2900
+Wire Wire Line
+	6300 2900 6500 2900
+Wire Wire Line
+	6300 3000 6300 2900
+Text Notes 6000 2800 0    50   ~ 0
+RIGHT
+Wire Wire Line
+	5000 2350 5000 2500
+Wire Wire Line
+	5000 2500 5550 2500
+Connection ~ 5550 2500
+Wire Wire Line
+	950  1400 950  600 
+Wire Wire Line
+	950  600  4950 600 
+Wire Wire Line
+	4950 1450 5550 1450
+Connection ~ 950  1400
+Connection ~ 5550 1450
+Text Label 5000 1450 0    50   ~ 0
+L_MIX_BUS
+Text Label 5400 2500 2    50   ~ 0
+R_MIX_BUS
+$Comp
+L Device:C_Small C25
+U 1 1 5CB89B40
+P 7550 1650
+F 0 "C25" V 7321 1650 50  0000 C CNN
+F 1 "1uF" V 7412 1650 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 7588 1500 50  0001 C CNN
+F 3 "" H 7550 1650 50  0000 C CNN
+F 4 "Kemet" H 7550 1650 50  0001 C CNN "Manufacturer"
+F 5 "Film Capacitor" H 7550 1650 50  0001 C CNN "Description"
+F 6 "0.00@0" H 7550 1650 50  0001 C CNN "Pricing"
+F 7 "LDEDD4100KA0N00" H 7550 1650 50  0001 C CNN "Manufacturers Part Number"
+	1    7550 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 5CB89F29
+P 7550 2700
+F 0 "C29" V 7700 2700 50  0000 C CNN
+F 1 "1uF" V 7800 2700 50  0000 C CNN
+F 2 "SW-Kemet:Kemet_CAP_2220_5750Metric_D" H 7588 2550 50  0001 C CNN
+F 3 "" H 7550 2700 50  0000 C CNN
+F 4 "Kemet" H 7550 2700 50  0001 C CNN "Manufacturer"
+F 5 "Film Capacitor" H 7550 2700 50  0001 C CNN "Description"
+F 6 "0.00@0" H 7550 2700 50  0001 C CNN "Pricing"
+F 7 "LDEDD4100KA0N00" H 7550 2700 50  0001 C CNN "Manufacturers Part Number"
+	1    7550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 5CBB4486
+P 7550 2250
+F 0 "J3" H 7600 2350 50  0000 C CNN
+F 1 "Audio Out" H 7600 2050 50  0000 C CNN
+F 2 "SW-Hirose:DF11-4DP-2DSA" H 7550 2250 50  0001 C CNN
+F 3 "~" H 7550 2250 50  0001 C CNN
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 10850 4300 10850
+Wire Wire Line
+	3950 2750 4300 2750
+Connection ~ 4300 2750
+Wire Wire Line
+	4300 2750 4300 4100
+Connection ~ 4300 4100
+Wire Wire Line
+	4300 4100 4300 5450
+Connection ~ 4300 5450
+Connection ~ 4300 6800
+Connection ~ 4300 8150
+Connection ~ 4300 9500
+Wire Wire Line
+	4300 5450 4300 6800
+Wire Wire Line
+	4300 6800 4300 8150
+Wire Wire Line
+	4300 8150 4300 9500
+Wire Wire Line
+	4300 9500 4300 10850
+Wire Wire Line
+	3950 4100 4300 4100
+Wire Wire Line
+	3950 5450 4300 5450
+Wire Wire Line
+	3950 6800 4300 6800
+Wire Wire Line
+	3950 8150 4300 8150
+Wire Wire Line
+	3950 9500 4300 9500
+Wire Wire Line
+	4300 1400 4300 2350
+Wire Wire Line
+	4950 1450 4950 600 
+Wire Wire Line
+	5000 2350 4300 2350
+Connection ~ 4300 2350
+Wire Wire Line
+	4300 2350 4300 2750
+Wire Wire Line
+	7050 2700 7150 2700
+Connection ~ 7050 2700
+Wire Wire Line
+	7050 1650 7150 1650
+Connection ~ 7050 1650
+Wire Wire Line
+	7350 1650 7450 1650
+Wire Wire Line
+	7350 2700 7450 2700
+Wire Wire Line
+	7650 2700 7900 2700
+Wire Wire Line
+	7900 2700 7900 2350
+Wire Wire Line
+	7900 2350 7850 2350
+Wire Wire Line
+	7650 1650 7900 1650
+Wire Wire Line
+	7900 1650 7900 2250
+Wire Wire Line
+	7900 2250 7850 2250
+Wire Wire Line
+	7350 2350 7250 2350
+Wire Wire Line
+	7250 2350 7250 2250
+Wire Wire Line
+	7250 2250 7350 2250
+Wire Wire Line
+	7250 2250 7250 2150
+Wire Wire Line
+	7250 2150 6300 2150
+Connection ~ 7250 2250
+Connection ~ 6300 2150
+Wire Wire Line
+	6300 2150 6300 2900
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J4
+U 1 1 5CE98A49
+P 6950 7250
+F 0 "J4" H 7000 7850 50  0000 C CNN
+F 1 "Audio IN" H 7000 6550 50  0000 C CNN
+F 2 "SW-Hirose:DF11-24DP-2DSA" H 6950 7250 50  0001 C CNN
+F 3 "~" H 6950 7250 50  0001 C CNN
+	1    6950 7250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6450 7550 6450 7650
+Text Label 6150 7650 0    50   ~ 0
+L-IN0
+Wire Wire Line
+	6550 7550 6550 7750
+Wire Wire Line
+	6650 7550 6650 7800
+Wire Wire Line
+	6650 7800 6950 7800
+Wire Wire Line
+	6950 7550 6950 7800
+Connection ~ 6950 7800
+Wire Wire Line
+	6950 7800 7250 7800
+Wire Wire Line
+	7250 7550 7250 7800
+Connection ~ 7250 7800
+Wire Wire Line
+	7250 7800 7550 7800
+Wire Wire Line
+	7550 7550 7550 7800
+Connection ~ 7550 7800
+Wire Wire Line
+	7550 7800 7750 7800
+Wire Wire Line
+	6650 7050 6650 7000
+Wire Wire Line
+	6550 7050 6550 6900
+Wire Wire Line
+	6450 7050 6450 6800
+Wire Wire Line
+	6450 6800 6750 6800
+Wire Wire Line
+	6750 7050 6750 6800
+Connection ~ 6750 6800
+Wire Wire Line
+	6750 6800 7050 6800
+Wire Wire Line
+	7050 7050 7050 6800
+Connection ~ 7050 6800
+Wire Wire Line
+	7050 6800 7350 6800
+Wire Wire Line
+	7350 7050 7350 6800
+Connection ~ 7350 6800
+Wire Wire Line
+	7350 6800 7750 6800
+Wire Wire Line
+	6950 7050 6950 6700
+Wire Wire Line
+	6850 7050 6850 6600
+Wire Wire Line
+	7250 7050 7250 6400
+Wire Wire Line
+	7150 7050 7150 6300
+Wire Wire Line
+	7550 7050 7550 6100
+Wire Wire Line
+	7450 7050 7450 6000
+Wire Wire Line
+	6750 7550 6750 7950
+Wire Wire Line
+	6850 7550 6850 8050
+Wire Wire Line
+	7050 7550 7050 8250
+Wire Wire Line
+	7150 7550 7150 8350
+Wire Wire Line
+	7350 7550 7350 8550
+Wire Wire Line
+	7750 6800 7750 7800
+$Comp
+L power:GNDREF #PWR062
+U 1 1 5D951E0C
+P 7750 9550
+F 0 "#PWR062" H 7750 9300 50  0001 C CNN
+F 1 "GNDREF" H 7750 9400 50  0000 C CNN
+F 2 "" H 7750 9550 50  0000 C CNN
+F 3 "" H 7750 9550 50  0000 C CNN
+	1    7750 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 9550 7750 9300
+Connection ~ 7750 7800
+Text Label 6150 7950 0    50   ~ 0
+L-IN2
+Text Label 6150 8250 0    50   ~ 0
+L-IN4
+Text Label 6150 8550 0    50   ~ 0
+L-IN6
+Text Label 6150 6000 0    50   ~ 0
+L-IN7
+Text Label 6150 6300 0    50   ~ 0
+L-IN5
+Text Label 6150 6600 0    50   ~ 0
+L-IN3
+Text Label 6150 6900 0    50   ~ 0
+L-IN1
+Text Label 6150 6100 0    50   ~ 0
+R-IN7
+Text Label 6150 6400 0    50   ~ 0
+R-IN5
+Text Label 6150 6700 0    50   ~ 0
+R-IN3
+Text Label 6150 7000 0    50   ~ 0
+R-IN1
+Text Label 6150 7750 0    50   ~ 0
+R-IN0
+Text Label 6150 8050 0    50   ~ 0
+R-IN2
+Text Label 6150 8350 0    50   ~ 0
+R-IN4
+Text Label 6150 8650 0    50   ~ 0
+R-IN6
 Wire Bus Line
-	650  1700 650  12150
+	4500 11450 5350 11450
+Wire Bus Line
+	650  11900 5550 11900
+Entry Wire Line
+	5550 5900 5650 6000
+Entry Wire Line
+	5550 6200 5650 6300
+Entry Wire Line
+	5550 6500 5650 6600
+Entry Wire Line
+	5550 6800 5650 6900
+Entry Wire Line
+	5550 7550 5650 7650
+Entry Wire Line
+	5550 7850 5650 7950
+Entry Wire Line
+	5550 8150 5650 8250
+Entry Wire Line
+	5550 8450 5650 8550
+Entry Wire Line
+	5350 6000 5450 6100
+Entry Wire Line
+	5350 6300 5450 6400
+Entry Wire Line
+	5350 6600 5450 6700
+Entry Wire Line
+	5350 6900 5450 7000
+Entry Wire Line
+	5350 8550 5450 8650
+Entry Wire Line
+	5350 8250 5450 8350
+Entry Wire Line
+	5350 7950 5450 8050
+Entry Wire Line
+	5350 7650 5450 7750
+Wire Wire Line
+	5650 6000 7450 6000
+Wire Wire Line
+	5650 7650 6450 7650
+Wire Wire Line
+	5650 6900 6550 6900
+Wire Wire Line
+	5650 6600 6850 6600
+Wire Wire Line
+	5650 6300 7150 6300
+Wire Wire Line
+	5450 6100 7550 6100
+Wire Wire Line
+	5650 7950 6700 7950
+Wire Wire Line
+	5650 8250 7050 8250
+Wire Wire Line
+	5650 8550 7350 8550
+Wire Wire Line
+	5450 7750 6550 7750
+Wire Wire Line
+	5450 7000 6650 7000
+Wire Wire Line
+	5450 6700 6950 6700
+Wire Wire Line
+	5450 6400 7250 6400
+Wire Wire Line
+	5450 8050 6850 8050
+Wire Wire Line
+	5450 8350 7150 8350
+Wire Wire Line
+	7450 7550 7450 8650
+Wire Wire Line
+	5450 8650 7450 8650
+$Comp
+L SW-Semtech:0582BQ D4
+U 1 1 5DBEE561
+P 7500 5650
+F 0 "D4" V 7553 5462 60  0000 R CNN
+F 1 "0582BQ" V 7447 5462 60  0000 R CNN
+F 2 "SW-Semtech:SC-75_3L" H 6100 4550 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 7700 7650 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 7400 7800 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 7450 7700 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 7450 7900 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 7350 8000 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 7350 8100 60  0001 C CNN "Pricing"
+	1    7500 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D3
+U 1 1 5DCC84CB
+P 7150 5650
+F 0 "D3" H 7300 5800 60  0000 R CNN
+F 1 "0582BQ" H 7550 5550 60  0000 R CNN
+F 2 "SW-Semtech:SC-75_3L" H 5750 4550 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 7350 7650 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 7050 7800 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 7100 7700 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 7100 7900 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 7000 8000 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 7000 8100 60  0001 C CNN "Pricing"
+	1    7150 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D2
+U 1 1 5DCC8588
+P 6800 5650
+F 0 "D2" H 6950 5800 60  0000 R CNN
+F 1 "0582BQ" H 7250 5550 60  0000 R CNN
+F 2 "SW-Semtech:SC-75_3L" H 5400 4550 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 7000 7650 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 6700 7800 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 6750 7700 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 6750 7900 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 6650 8000 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 6650 8100 60  0001 C CNN "Pricing"
+	1    6800 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D1
+U 1 1 5DCC8647
+P 6450 5650
+F 0 "D1" V 6503 5837 60  0000 L CNN
+F 1 "0582BQ" V 6397 5837 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 5050 4550 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 6650 7650 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 6350 7800 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 6400 7700 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 6400 7900 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 6300 8000 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 6300 8100 60  0001 C CNN "Pricing"
+	1    6450 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 6100 7550 5850
+Wire Wire Line
+	7550 5850 7600 5850
+Wire Wire Line
+	7600 5850 7600 5800
+Connection ~ 7550 6100
+Wire Wire Line
+	7400 5800 7400 5900
+Wire Wire Line
+	7400 5900 7450 5900
+Wire Wire Line
+	7450 5900 7450 6000
+Connection ~ 7450 6000
+Wire Wire Line
+	7250 5800 7250 6400
+Connection ~ 7250 6400
+Wire Wire Line
+	7150 6300 7150 5900
+Wire Wire Line
+	7150 5900 7050 5900
+Wire Wire Line
+	7050 5900 7050 5800
+Connection ~ 7150 6300
+Wire Wire Line
+	6950 5900 6900 5900
+Wire Wire Line
+	6900 5900 6900 5800
+Wire Wire Line
+	6950 5900 6950 6700
+Connection ~ 6950 6700
+Wire Wire Line
+	6850 6600 6850 5900
+Wire Wire Line
+	6850 5900 6700 5900
+Wire Wire Line
+	6700 5900 6700 5800
+Connection ~ 6850 6600
+Wire Wire Line
+	6650 7000 6650 5900
+Wire Wire Line
+	6650 5900 6550 5900
+Wire Wire Line
+	6550 5900 6550 5800
+Connection ~ 6650 7000
+Wire Wire Line
+	6550 6900 6550 5950
+Wire Wire Line
+	6550 5950 6350 5950
+Wire Wire Line
+	6350 5950 6350 5800
+Connection ~ 6550 6900
+Wire Wire Line
+	6450 5500 6450 5450
+Wire Wire Line
+	6450 5450 6800 5450
+Wire Wire Line
+	7500 5450 7500 5500
+Wire Wire Line
+	6800 5500 6800 5450
+Connection ~ 6800 5450
+Wire Wire Line
+	6800 5450 7150 5450
+Wire Wire Line
+	7150 5500 7150 5450
+Connection ~ 7150 5450
+Wire Wire Line
+	7150 5450 7500 5450
+$Comp
+L SW-Semtech:0582BQ D8
+U 1 1 5DF3DC5A
+P 7500 9100
+F 0 "D8" V 7447 9288 60  0000 L CNN
+F 1 "0582BQ" V 7553 9288 60  0000 L CNN
+F 2 "SW-Semtech:SC-75_3L" H 6100 8000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 7700 11100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 7400 11250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 7450 11150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 7450 11350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 7350 11450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 7350 11550 60  0001 C CNN "Pricing"
+	1    7500 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D7
+U 1 1 5DF3DC66
+P 7150 9100
+F 0 "D7" H 7300 9250 60  0000 R CNN
+F 1 "0582BQ" H 7550 9000 60  0000 R CNN
+F 2 "SW-Semtech:SC-75_3L" H 5750 8000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 7350 11100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 7050 11250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 7100 11150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 7100 11350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 7000 11450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 7000 11550 60  0001 C CNN "Pricing"
+	1    7150 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D6
+U 1 1 5DF3DC72
+P 6800 9100
+F 0 "D6" H 6950 9250 60  0000 R CNN
+F 1 "0582BQ" H 7250 9000 60  0000 R CNN
+F 2 "SW-Semtech:SC-75_3L" H 5400 8000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 7000 11100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 6700 11250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 6750 11150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 6750 11350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 6650 11450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 6650 11550 60  0001 C CNN "Pricing"
+	1    6800 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW-Semtech:0582BQ D5
+U 1 1 5DF3DC7E
+P 6450 9100
+F 0 "D5" V 6397 8913 60  0000 R CNN
+F 1 "0582BQ" V 6503 8913 60  0000 R CNN
+F 2 "SW-Semtech:SC-75_3L" H 5050 8000 60  0001 C CNN
+F 3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" H 6650 11100 60  0001 C CNN
+F 4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" H 6350 11250 60  0001 C CNN "Characteristics"
+F 5 "Semtech International AG" H 6400 11150 60  0001 C CNN "Manufacturer"
+F 6 "Low Capacitance TVS for Automotive Applications" H 6400 11350 60  0001 C CNN "Description"
+F 7 "SC75 / SOT 523" H 6300 11450 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 6300 11550 60  0001 C CNN "Pricing"
+	1    6450 9100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 9250 6450 9300
+Wire Wire Line
+	6450 9300 6800 9300
+Wire Wire Line
+	7500 9300 7500 9250
+Wire Wire Line
+	6800 9250 6800 9300
+Connection ~ 6800 9300
+Wire Wire Line
+	6800 9300 7150 9300
+Wire Wire Line
+	7150 9250 7150 9300
+Connection ~ 7150 9300
+Wire Wire Line
+	7150 9300 7500 9300
+Wire Wire Line
+	7500 9300 7750 9300
+Connection ~ 7500 9300
+Connection ~ 7750 9300
+Wire Wire Line
+	7750 9300 7750 7800
+Wire Wire Line
+	7500 5450 7750 5450
+Wire Wire Line
+	7750 5450 7750 6800
+Connection ~ 7500 5450
+Connection ~ 7750 6800
+Wire Wire Line
+	7450 8650 7600 8650
+Wire Wire Line
+	7600 8650 7600 8950
+Connection ~ 7450 8650
+Wire Wire Line
+	7400 8950 7400 8550
+Wire Wire Line
+	7400 8550 7350 8550
+Connection ~ 7350 8550
+Wire Wire Line
+	7250 8950 7250 8350
+Wire Wire Line
+	7250 8350 7150 8350
+Connection ~ 7150 8350
+Wire Wire Line
+	7050 8950 7050 8250
+Connection ~ 7050 8250
+Wire Wire Line
+	6900 8950 6900 8050
+Wire Wire Line
+	6900 8050 6850 8050
+Connection ~ 6850 8050
+Wire Wire Line
+	6700 8950 6700 7950
+Connection ~ 6700 7950
+Wire Wire Line
+	6700 7950 6750 7950
+Wire Wire Line
+	6550 7750 6550 8950
+Connection ~ 6550 7750
+Wire Wire Line
+	6350 8950 6450 8950
+Wire Wire Line
+	6450 8950 6450 7650
+Wire Bus Line
+	650  1700 650  11900
 Wire Bus Line
 	4500 1600 4500 11450
+Wire Bus Line
+	5350 6000 5350 11450
+Wire Bus Line
+	5550 5900 5550 11900
+Connection ~ 6450 7650
 $EndSCHEMATC
