@@ -717,13 +717,13 @@ U 1 1 5BAB66C5
 P 5350 2300
 F 0 "T1" H 5541 2254 50  0000 L CNN
 F 1 "PMV45EN2" H 5541 2345 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 2850 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 2850 50  0001 C CNN
 F 3 "http://cache.nxp.com/documents/data_sheet/PMV45EN2.pdf?pspll=1" H 5800 2000 50  0001 C CNN
-F 4 "0.00@0" H 5150 2550 60  0001 C CNN "Pricing"
-F 5 "30V 5.1A" H 5600 2950 60  0001 C CNN "Characteristics"
+F 4 "30V 5.1A" H 5600 2950 60  0001 C CNN "Characteristics"
+F 5 "NXP" H 5850 2550 60  0001 C CNN "Manufacturer"
 F 6 "N-channel Trench MOSFET" H 5950 2650 60  0001 C CNN "Description"
-F 7 "NXP" H 5850 2550 60  0001 C CNN "Manufacturer"
-F 8 "SOT23" H 6050 2750 60  0001 C CNN "Package ID"
+F 7 "SOT23" H 6050 2750 60  0001 C CNN "Package ID"
+F 8 "0.00@0" H 5150 2550 60  0001 C CNN "Pricing"
 	1    5350 2300
 	1    0    0    1   
 $EndComp

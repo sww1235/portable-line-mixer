@@ -147,24 +147,8 @@ Wire Wire Line
 Wire Wire Line
 	6400 2300 6400 2450
 Connection ~ 6400 2450
-$Comp
-L SW-Bournes-Pro-Audio:PEC11-4215F-S24 S1
-U 1 1 5AC62149
-P 1750 2500
-F 0 "S1" H 1750 2650 60  0000 C CNN
-F 1 "PEC11-4215F-S24" H 1750 2300 60  0000 C CNN
-F 2 "SW-Bournes:PEC11R-4xxx-Sxxxx" H 1650 2550 60  0001 C CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/pec11R.pdf" H 1600 2850 60  0001 C CNN
-F 4 "0.00@0" H 2050 3150 60  0001 C CNN "Pricing"
-F 5 "Bournes Pro Audio" H 1750 2950 60  0001 C CNN "Manufacturer"
-F 6 "PEC11R Series - 12 mm Incremental Encoder" H 1750 3050 60  0001 C CNN "Description"
-	1    1750 2500
-	1    0    0    1   
-$EndComp
 Text Notes 1700 5650 0    60   ~ 0
 D0 -\nD1 -\nD2 - External Interrupt - ENC-B - Pullup\nD3 - External Interrupt - ENC-SW -Pullup\nD4 - MicroSD slave select\nD5 - ENC-A - pullup\nD6 - Audio Power Enable\nD7\nD8\nD9\nD10 - Ethernet Slave Select\nD11 - MOSI\nD12 - MISO\n\nUse D2 and D3 as interupts for encoder,\n1 for detecting switch and one for\ndetecting transition which is less \nimportant so only 1/2 accuacy is acceptable.\nOther encoder pin is connected to D5\nMake certain to turn on pullup resistors on\nthese pins as they will be pulled low on\nchange.
-Wire Wire Line
-	3100 2450 2050 2450
 Wire Wire Line
 	1400 2550 1400 3250
 Wire Wire Line
@@ -182,23 +166,6 @@ F 3 "" H 1100 2500 50  0000 C CNN
 	1    1100 2500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GNDREF #PWR029
-U 1 1 5AC62165
-P 2200 2600
-F 0 "#PWR029" H 2200 2350 50  0001 C CNN
-F 1 "GNDREF" H 2200 2450 50  0000 C CNN
-F 2 "" H 2200 2600 50  0000 C CNN
-F 3 "" H 2200 2600 50  0000 C CNN
-	1    2200 2600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 2500 2200 2500
-Wire Wire Line
-	2200 2500 2200 2600
-Wire Wire Line
-	1400 2450 1100 2450
 Wire Wire Line
 	1100 2450 1100 2500
 Text Label 2350 3250 2    60   ~ 0
@@ -308,4 +275,25 @@ Wire Wire Line
 Wire Wire Line
 	7200 4050 6400 4050
 Connection ~ 6400 4050
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J5
+U 1 1 5AFC62E7
+P 1650 2450
+F 0 "J5" H 1700 2550 50  0000 C CNN
+F 1 "Encoder Connection" H 1700 2250 50  0000 C CNN
+F 2 "SW-Hirose:DF11-4DP-2DSA" H 1650 2450 50  0001 C CNN
+F 3 "~" H 1650 2450 50  0001 C CNN
+	1    1650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2450 1450 2450
+Wire Wire Line
+	1400 2550 1450 2550
+Wire Wire Line
+	1950 2450 3100 2450
+Wire Wire Line
+	1950 2550 2050 2550
+Text Notes 1450 2150 0    50   ~ 0
+Use PEC11-4215F-S24\nEncoder.\nSolder + Heatshrink wires\nUse APM Hexseal sealed nut
 $EndSCHEMATC

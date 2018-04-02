@@ -7,4 +7,5 @@
   (lib (name SW-Hirose)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Hirose.pretty)(options "")(descr ""))
   (lib (name SW-Switchcraft)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Switchcraft.pretty)(options "")(descr ""))
   (lib (name SW-CUI-INC)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-CUI-INC.pretty)(options "")(descr ""))
+  (lib (name SW-Package-SON)(type KiCad)(uri /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Package-SON.pretty)(options "")(descr ""))
 )
