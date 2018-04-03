@@ -64,9 +64,9 @@ F 3 "" H 5800 3550 50  0001 C CNN
 $EndComp
 Text Notes 3950 1850 0    60   ~ 0
 Pins D4, D10, D11, D12, D13 are \nused by gravitech.us ethernet card\nEthernet and USB connections are \nprovided by short cables to \nexternal connectors
-Text HLabel 6900 2950 2    60   BiDi ~ 0
+Text HLabel 7450 2950 2    60   BiDi ~ 0
 5V-SDA
-Text HLabel 6900 2850 2    60   Output ~ 0
+Text HLabel 7450 2850 2    60   Output ~ 0
 5V-SCL
 Text Label 5750 2450 0    60   ~ 0
 Nano_RST
@@ -128,7 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4050 6400 4050
 Wire Wire Line
-	6400 2450 6400 4050
+	6400 2450 6400 3250
 $Comp
 L SW-gElectroMech:SPST_MOM_SHLD SW1
 U 1 1 5AB58C6D
@@ -150,10 +150,6 @@ Connection ~ 6400 2450
 Text Notes 1700 5650 0    60   ~ 0
 D0 -\nD1 -\nD2 - External Interrupt - ENC-B - Pullup\nD3 - External Interrupt - ENC-SW -Pullup\nD4 - MicroSD slave select\nD5 - ENC-A - pullup\nD6 - Audio Power Enable\nD7\nD8\nD9\nD10 - Ethernet Slave Select\nD11 - MOSI\nD12 - MISO\n\nUse D2 and D3 as interupts for encoder,\n1 for detecting switch and one for\ndetecting transition which is less \nimportant so only 1/2 accuacy is acceptable.\nOther encoder pin is connected to D5\nMake certain to turn on pullup resistors on\nthese pins as they will be pulled low on\nchange.
 Wire Wire Line
-	1400 2550 1400 3250
-Wire Wire Line
-	1400 3250 3100 3250
-Wire Wire Line
 	2050 2950 2050 2550
 $Comp
 L power:GNDREF #PWR028
@@ -168,11 +164,11 @@ F 3 "" H 1100 2500 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1100 2450 1100 2500
-Text Label 2350 3250 2    60   ~ 0
+Text Label 2750 2750 2    60   ~ 0
 ENC-1
 Text Label 2350 2950 2    60   ~ 0
 ENC-A
-Text Label 2350 2450 2    60   ~ 0
+Text Label 3000 2450 2    60   ~ 0
 ENC-B
 $Comp
 L Device:R_Small R14
@@ -209,10 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 2950 4150 2950
 Wire Wire Line
-	3100 3250 3100 2750
-Wire Wire Line
-	3100 2750 4150 2750
-Wire Wire Line
 	3700 3050 4150 3050
 Wire Wire Line
 	5750 2800 5750 2950
@@ -222,8 +214,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 2800 5900 2850
 Connection ~ 5900 2850
-Wire Wire Line
-	5900 2850 6650 2850
 Wire Wire Line
 	5750 2600 5750 2550
 Connection ~ 5750 2550
@@ -235,65 +225,83 @@ Connection ~ 5900 2550
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J2
 U 1 1 5E3F25AA
-P 6900 3150
-F 0 "J2" H 6950 3250 50  0000 C CNN
-F 1 "LCD Connection I2C" H 6950 2950 50  0000 C CNN
-F 2 "SW-Hirose:DF11-4DP-2DSA" H 6900 3150 50  0001 C CNN
-F 3 "~" H 6900 3150 50  0001 C CNN
-	1    6900 3150
-	1    0    0    -1  
+P 7000 3250
+F 0 "J2" H 7050 3350 50  0000 C CNN
+F 1 "LCD Connection I2C" H 7050 3050 50  0000 C CNN
+F 2 "SW-Hirose:DF11-4DP-2DSA" H 7000 3250 50  0001 C CNN
+F 3 "~" H 7000 3250 50  0001 C CNN
+	1    7000 3250
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6550 2950 6550 3250
+	6550 2950 6550 3150
 Wire Wire Line
-	6550 3250 6700 3250
+	6550 3150 6700 3150
 Connection ~ 6550 2950
 Wire Wire Line
-	6550 2950 6900 2950
-Wire Wire Line
-	6650 2850 6650 3150
-Wire Wire Line
-	6650 3150 6700 3150
-Connection ~ 6650 2850
-Wire Wire Line
-	6650 2850 6900 2850
+	6550 2950 7450 2950
 $Comp
 L power:+5V #PWR030
 U 1 1 5E3F4B75
-P 7450 3150
-F 0 "#PWR030" H 7450 3000 50  0001 C CNN
-F 1 "+5V" H 7465 3323 50  0000 C CNN
-F 2 "" H 7450 3150 50  0001 C CNN
-F 3 "" H 7450 3150 50  0001 C CNN
-	1    7450 3150
+P 7750 3250
+F 0 "#PWR030" H 7750 3100 50  0001 C CNN
+F 1 "+5V" H 7765 3423 50  0000 C CNN
+F 2 "" H 7750 3250 50  0001 C CNN
+F 3 "" H 7750 3250 50  0001 C CNN
+	1    7750 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3150 7450 3150
-Wire Wire Line
-	7200 3250 7200 4050
-Wire Wire Line
-	7200 4050 6400 4050
-Connection ~ 6400 4050
+	7200 3250 7750 3250
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J5
 U 1 1 5AFC62E7
-P 1650 2450
-F 0 "J5" H 1700 2550 50  0000 C CNN
-F 1 "Encoder Connection" H 1700 2250 50  0000 C CNN
-F 2 "SW-Hirose:DF11-4DP-2DSA" H 1650 2450 50  0001 C CNN
-F 3 "~" H 1650 2450 50  0001 C CNN
-	1    1650 2450
-	1    0    0    -1  
+P 1750 2450
+F 0 "J5" H 1800 2550 50  0000 C CNN
+F 1 "Encoder Connection" H 1800 2250 50  0000 C CNN
+F 2 "SW-Hirose:DF11-4DP-2DSA" H 1750 2450 50  0001 C CNN
+F 3 "~" H 1750 2450 50  0001 C CNN
+	1    1750 2450
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 2450 1450 2450
-Wire Wire Line
 	1400 2550 1450 2550
-Wire Wire Line
-	1950 2450 3100 2450
 Wire Wire Line
 	1950 2550 2050 2550
 Text Notes 1450 2150 0    50   ~ 0
 Use PEC11-4215F-S24\nEncoder.\nSolder + Heatshrink wires\nUse APM Hexseal sealed nut
+Wire Wire Line
+	3100 2450 2450 2450
+Wire Wire Line
+	2450 2450 2450 2250
+Wire Wire Line
+	2450 2250 800  2250
+Wire Wire Line
+	800  2250 800  2750
+Wire Wire Line
+	2250 2750 2250 2450
+Wire Wire Line
+	2250 2450 1950 2450
+Wire Wire Line
+	2250 2750 4150 2750
+Wire Wire Line
+	1400 2750 1400 2550
+Wire Wire Line
+	800  2750 1400 2750
+Wire Wire Line
+	7350 2850 7350 3150
+Wire Wire Line
+	7350 3150 7200 3150
+Connection ~ 7350 2850
+Wire Wire Line
+	7350 2850 7450 2850
+Wire Wire Line
+	5900 2850 7350 2850
+Wire Wire Line
+	6400 3250 6700 3250
+Connection ~ 6400 3250
+Wire Wire Line
+	6400 3250 6400 4050
+Wire Wire Line
+	1100 2450 1450 2450
 $EndSCHEMATC

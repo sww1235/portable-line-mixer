@@ -131,7 +131,7 @@ U 1 1 5A65A77E
 P 8450 2000
 F 0 "U1" H 8450 2647 60  0000 C CNN
 F 1 "LM27762" H 8450 2541 60  0000 C CNN
-F 2 "Package_SON:WSON-12-1EP_3x2mm_P0.5mm" H 8250 2650 60  0001 C CNN
+F 2 "SW-Package-SON:WSON-12-1EP_3x2mm_P0.5mm" H 8250 2650 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm27762.pdf" H 8450 2850 60  0001 C CNN
 F 4 "Vin 2.7V to 5.5V, Vout ±1.5 to 5V, ±250mA Iout, 2MHz switching frequency," H 8550 2950 60  0001 C CNN "Characteristics"
 F 5 "Texas Instruments" H 8450 3050 60  0001 C CNN "Manufacturer"
@@ -733,8 +733,9 @@ U 1 1 5BAB6D50
 P 8300 4700
 F 0 "U5" H 8325 3628 50  0000 C CNN
 F 1 "LTC3265" H 8325 3537 50  0000 C CNN
-F 2 "Package_SSOP:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 8300 4700 50  0001 C CNN
+F 2 "SW-Linear:TSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.75x6.07mm-LTC3265" H 8300 4700 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/3265fa.pdf" H 8300 4700 50  0001 C CNN
+F 4 "0.00@0" H 8300 4700 50  0001 C CNN "Pricing"
 	1    8300 4700
 	1    0    0    -1  
 $EndComp
@@ -1330,4 +1331,24 @@ Text Label 6900 2100 0    50   ~ 0
 ±5VA_EN
 Text Label 4850 2300 0    50   ~ 0
 +5VD_EN
+Text Label 8050 3900 1    50   ~ 0
+CBST+
+Text Label 8250 3900 1    50   ~ 0
+CBST-
+Text Label 8400 3900 1    50   ~ 0
+CINV+
+Text Label 8600 3900 1    50   ~ 0
+CINV-
+Text Label 8900 4700 0    50   ~ 0
+ADJ+
+Text Label 8900 5100 0    50   ~ 0
+ADJ-
+Text Label 7700 5450 0    50   ~ 0
+BYP+
+Text Label 7750 5050 2    50   ~ 0
+BYP-
+Text Label 8900 5650 0    50   ~ 0
+VOUT-
+Text Label 7700 5600 3    50   ~ 0
+VOUT+
 $EndSCHEMATC

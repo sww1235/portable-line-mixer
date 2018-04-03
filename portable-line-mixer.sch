@@ -38,7 +38,7 @@ U 1 1 5AA4394C
 P 7300 1200
 F 0 "MK1" H 7400 1251 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 7400 1160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 7300 1200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7300 1200 50  0001 C CNN
 F 3 "" H 7300 1200 50  0001 C CNN
 	1    7300 1200
 	1    0    0    -1  
@@ -49,21 +49,10 @@ U 1 1 5AA4398E
 P 8200 1200
 F 0 "MK2" H 8300 1251 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 8300 1160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8200 1200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 8200 1200 50  0001 C CNN
 F 3 "" H 8200 1200 50  0001 C CNN
 	1    8200 1200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Mounting_Hole_PAD MK4
-U 1 1 5AA439B1
-P 8200 1600
-F 0 "MK4" H 8100 1558 50  0000 R CNN
-F 1 "Mounting_Hole_PAD" H 8100 1649 50  0000 R CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 8200 1600 50  0001 C CNN
-F 3 "" H 8200 1600 50  0001 C CNN
-	1    8200 1600
-	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole_PAD MK3
@@ -71,7 +60,7 @@ U 1 1 5AA439D6
 P 7300 1600
 F 0 "MK3" H 7200 1558 50  0000 R CNN
 F 1 "Mounting_Hole_PAD" H 7200 1649 50  0000 R CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 7300 1600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7300 1600 50  0001 C CNN
 F 3 "" H 7300 1600 50  0001 C CNN
 	1    7300 1600
 	-1   0    0    1   
@@ -79,10 +68,7 @@ $EndComp
 Wire Wire Line
 	7300 1500 7300 1400
 Wire Wire Line
-	8200 1500 8200 1400
-Wire Wire Line
 	8200 1400 7300 1400
-Connection ~ 8200 1400
 Wire Wire Line
 	8200 1400 8200 1300
 Connection ~ 7300 1400
