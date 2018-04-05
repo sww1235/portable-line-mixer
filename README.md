@@ -1,24 +1,41 @@
 # portable-line-mixer
-A compact line level audio mixer
+A compact line level audio mixer.
+
+Volume control via Digipots.
 
 ## TODO
 
--   ~~move 1/2 of the digipots to underside of board~~
--   change line inputs to use db-25f connector
--   ~~switch to USB C port for power and microprocessor connection~~
--   switch to 4 layer PCB
--   Finalize circuit board layout
+-   Export BOM and price out parts
+-   CODE
+
+## Extra parts
+
+-   772-E25-103RYY1 norcomp db25 IP67 connector male
+-   772-E25-203RYY1 norcomp db25 IP67 connector female (for panelmount)
+-   967-025-010R011 norcomp db25 IP67 backshell for cable
+-   SFP6725 norcomp adhesive seal db25 size
+-   967-025-CAP norcomp ip67 sealing cap
+-   160-067-004R034 norcomp db25 hardware kit
+-   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
+-   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft
+-   JCAP  power jack cover
+-   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
+-   35HDLBAU(S) 3.5mm sealed locking plug switchcraft (S=0.175 diameter cable, no S=0.29 diameter cable)
+-   NE8FDX-P6-W IP rated ethercon connector Cat6A shielded neutrik
+-   NE8MX6 Cat6A ethercon cable connector neutrik
 
 ## Max Power Consumption figures
 
 | Component | Quantity | Current  | Voltage    | Total Watts |
 |:----------|:---------|:---------|:-----------|:------------|
-| Amp       | 2        | 5.7mA    | +-12V      | 274mW       |
+| 4x Op Amp | 1        | 2.8mA    | +-12V      | 67.2mW      |
 | Max6820   | 2        | 120uA    | +-5V       | 2.4mW       |
 | digipots  | 8        | 5uA,10uA | +-5VD, 5VA | 1.2mW       |
 | microproc | 1        | 27mA     | 5V         | 135mW       |
 | Total     |          |          |            | 412.6mW     |
 | ref total |          |          |            | 500mW       |
+
+
 
 ## References / sources
 
