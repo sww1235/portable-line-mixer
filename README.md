@@ -17,7 +17,7 @@ Volume control via Digipots.
 -   967-025-CAP norcomp ip67 sealing cap
 -   160-067-004R034 norcomp db25 hardware kit
 -   767KS1(X) 0.084 \[2.1\] id/od sealed locking power plug switchcraft
--   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft
+-   L722AS 0.08 \[2.0\] id/od sealed locking power jack switchcraft (these sizes are compatible with high amperage version)
 -   JCAP  power jack cover
 -   35FM3AULS - Sealed locking 3.5mm panel mount jack switchcraft
 -   35HDLBAU(S) 3.5mm sealed locking plug switchcraft (S=0.175 diameter cable, no S=0.29 diameter cable)
