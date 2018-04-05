@@ -129,24 +129,6 @@ Wire Wire Line
 	5650 4050 6400 4050
 Wire Wire Line
 	6400 2450 6400 3250
-$Comp
-L SW-gElectroMech:SPST_MOM_SHLD SW1
-U 1 1 5AB58C6D
-P 6200 2450
-F 0 "SW1" H 6200 2750 50  0000 C CNN
-F 1 "Nano Reset" H 6200 2650 50  0000 C CNN
-F 2 "SW-Eswitch:TL1105WF" H 6200 2650 50  0001 C CNN
-F 3 "" H 6200 2650 50  0001 C CNN
-	1    6200 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 2400 6000 2300
-Wire Wire Line
-	6000 2300 6400 2300
-Wire Wire Line
-	6400 2300 6400 2450
-Connection ~ 6400 2450
 Text Notes 1700 5650 0    60   ~ 0
 D0 -\nD1 -\nD2 - External Interrupt - ENC-B - Pullup\nD3 - External Interrupt - ENC-SW -Pullup\nD4 - MicroSD slave select\nD5 - ENC-A - pullup\nD6 - Audio Power Enable\nD7\nD8\nD9\nD10 - Ethernet Slave Select\nD11 - MOSI\nD12 - MISO\n\nUse D2 and D3 as interupts for encoder,\n1 for detecting switch and one for\ndetecting transition which is less \nimportant so only 1/2 accuacy is acceptable.\nOther encoder pin is connected to D5\nMake certain to turn on pullup resistors on\nthese pins as they will be pulled low on\nchange.
 Wire Wire Line
@@ -304,4 +286,16 @@ Wire Wire Line
 	6400 3250 6400 4050
 Wire Wire Line
 	1100 2450 1450 2450
+$Comp
+L SW-gElectroMech:SPST_MOM SW1
+U 1 1 5AC3DFC3
+P 6200 2450
+F 0 "SW1" H 6200 2750 50  0000 C CNN
+F 1 "Nano Reset" H 6200 2650 50  0000 C CNN
+F 2 "SW-Eswitch:TL1105" H 6200 2650 50  0001 C CNN
+F 3 "" H 6200 2650 50  0001 C CNN
+F 4 "0.00@0" H 6200 2450 50  0001 C CNN "Pricing"
+	1    6200 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
