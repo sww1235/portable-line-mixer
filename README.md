@@ -26,14 +26,13 @@ Volume control via Digipots.
 
 ## Max Power Consumption figures
 
-| Component | Quantity | Current  | Voltage    | Total Watts |
-|:----------|:---------|:---------|:-----------|:------------|
-| 4x Op Amp | 1        | 2.8mA    | +-12V      | 67.2mW      |
-| Max6820   | 2        | 120uA    | +-5V       | 2.4mW       |
-| digipots  | 8        | 5uA,10uA | +-5VD, 5VA | 1.2mW       |
-| microproc | 1        | 27mA     | 5V         | 135mW       |
-| Total     |          |          |            | 412.6mW     |
-| ref total |          |          |            | 500mW       |
+| Component | Quantity | Current  | Voltage    | Total Watts     |
+|:----------|:---------|:---------|:-----------|:----------------|
+| 4x Op Amp | 1        | 2.8mA    | ±12V       | 67.2mW          |
+| digipots  | 8        | 2uA, 5uA | +5VD, ±5VA | 0.48mW -> 0.5mW |
+| microproc | 1        | 27mA     | 5V         | 135mW           |
+| Total     |          |          |            | 202.68mW        |
+| ref total |          |          |            | 500mW           |
 
 
 
